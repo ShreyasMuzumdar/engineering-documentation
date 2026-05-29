@@ -4,12 +4,10 @@ dg-publish: true
 
 ﻿
 
-
     
     
     Shreybot | Portfolio
                 
-
 
     
         
@@ -34,11 +32,9 @@ dg-publish: true
 
 Engineering
 
-
             Achievement
 
 🏅 State Finalist
-
 
         
 
@@ -49,9 +45,7 @@ Engineering
             
                 Shreybot was my first robot with Pioneer Robotics during the Freight Frenzy season. This case study documents the mechanical design decisions, engineering tradeoffs, and lessons learned while building a robot to compete in FTC's rapid-freight logistics challenge.
 
-
                 **Challenge:** Design a robot to collect cubic and spherical freight from a warehouse and deposit them on alliance-specific shipping hubs at multiple heights, all within severe weight and space constraints.
-
 
             
         
@@ -107,7 +101,6 @@ Engineering
             
                 The collection system and linear stack required tight integration to handle freight handoff smoothly. The intake tilts freight into the collection tines, then the slides extend to position it precisely for deposit. This sequential motion reduced jamming compared to simultaneous actuation, though it added ~1 second per cycle.
 
-
             
         
 
@@ -115,7 +108,6 @@ Engineering
         
             Lessons Learned
             Reflecting on the Freight Frenzy season, the most significant takeaway was the importance of physical prototyping. While CAD models provided a strong foundation, the nuanced interaction between the hybrid tines and the various freight types could only be perfected through iterative hands-on testing and data-driven optimization.
-
 
             
                 

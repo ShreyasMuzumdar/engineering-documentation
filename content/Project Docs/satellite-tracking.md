@@ -5,7 +5,6 @@ dg-publish: true
 🛰️ Satellite Tracking Project | Portfolio
     
 
-
     
         
             
@@ -36,7 +35,6 @@ dg-publish: true
 
 *
 
-
                     
 
                     Children ages 7-11 in underserved communities across the Boston area face significant barriers to accessing and benefitting from modern technology infrastructure, including little exposure to concepts such as satellite communications and internet connectivity. This gap contributes to broader disparities in STEM interest and career aspirations among youth. Current educational resources tend to assume digital access and fail to provide children with meaningful, hands-on experiences that connect engineering principles to their everyday lives.
@@ -45,14 +43,12 @@ dg-publish: true
 
  As a result, many of these children do not see engineering and technology as pathways available to them, limiting their aspirations and reducing the pipeline of future STEM innovators from these communities.
 
-
                     
                     A well-designed travel campaign exhibit must address this specific educational gap by delivering a hands-on, interactive learning experience. The physical requirements are strict: the exhibit must be highly portable (fitting within a 36x28" profile), durable enough to withstand interaction from energetic 7-11 year olds, budget-conscious (originally planned for under $1000 in materials, but targeted strictly under $100 for this prototype), and capable of operating without reliable electrical infrastructure beyond a standard power outlet.
 
 ![[rank_order_table.png]]
 
  Furthermore, the setup parameters dictate that it must be assembled by a maximum of 2 people in under 10 minutes, and the total weight should not exceed 227 grams for individual modular components. The exhibit must engage children physically and emotionally, deliver clear educational content about satellite communication, and leave participants feeling inspired and capable. The overarching goal is not simply to be informative, but to genuinely empower the youth by demonstrating that they, too, can understand and build complex systems that impact the world.
-
 
                 
             
@@ -66,19 +62,14 @@ dg-publish: true
 
  While some commercial satellite projects get the majority media attention, there are other critically important projects that organizations like NASA run that are just as impactful. For example, Projects SMAP (Soil Moisture Active Passive) and RADARSAT are highly valuable tools used to measure many different environmental conditions on earth that help to improve living conditions globally. Project SMAP specifically looks at the soil moisture level and the freeze/thaw conditions everywhere on earth, reading it every 2 days [1]. It helps to create a more accurate model of earth which can be used to better predict the agricultural and climate issues we will face, informing farmers on the best places for planting crops. Project RADARSAT captures data for flood mapping, landslide detection, and damage assessment.
 
-
                     
                     
                     *Fig. 2. Global Submarine Cable Network showing the physical infrastructure of the internet.*
 
-
-
                     Satellites also solve many different societal problems. For example, we face a massive digital divide here on earth. While 51% of the global population has access to 5G, it does not mean that the 5G coverage is evenly distributed. There is 84% coverage in high-income areas and merely 4% coverage in low-income areas [2]. This means that there is a significant amount of the population that does not have access to the internet. The internet gives these people the opportunity to help themselves with jobs, education, and better access to healthcare services. The internet is fundamentally a collection of servers all over the world. In order for these servers to be connected, they must be linked with fiber optic cables. These cables are routed underground as well as laid across the ocean floor [3]. While all these cables are relatively inexpensive to install in densely populated, developed communities, it is prohibitively expensive to keep all this infrastructure maintained in rural or underserved areas, which directly causes the digital divide.
-
 
                     
                     The solution to bridging this divide is deploying satellites in Low Earth Orbit (LEO). Using satellites will allow for better, more equitable access to the internet without the need for extensive ground infrastructure. The thematic frameworks central to this project are Humanitarian Engineering and the Entrepreneurial Mindset. Humanitarian Engineering refers to applying engineering skills to address the needs of marginalized communities with explicit attention to equity and community ownership. The goal of this project is to give students the resources and knowledge to help themselves rather than giving them a handout. When explaining what these infrastructure projects do, it helps the students to understand what they can achieve with satellite technology and empowers them to become the changemakers of tomorrow.
-
 
                 
             
@@ -88,37 +79,30 @@ dg-publish: true
                 
                     The engineering design process (EDP) for the "Science in Orbit" exhibit was a highly structured and iterative cycle, ensuring that every design decision was grounded in stakeholder research and technical feasibility. The process began with an extensive Problem Definition phase (Milestone 1), where the team conducted in-depth analysis of potential users. By gathering over 20 academic and scientific sources, the team mapped the needs, pain points, and motivations of the children, revealing that they are most motivated by tangible, personally relevant experiences and tend to indulge in activities that are "trendy" or congruent with video games.
 
-
                     
                     
                         
                             
                             Phase 1 Selection
 
-
                             Rank Order
-
 
                         
                         
                             
                             Phase 2 Selection
 
-
                             KTDA Analysis
-
 
                         
                     
 
                     During the Solution Generation phase (Milestone 2), the team utilized a variety of structured ideation techniques. To select the most effective solution, a two-step process was employed: a rank-order chart followed by a Kepner-Tregoe Decision Analysis (KTDA). The satellite orbit concept emerged as the winner over alternative concepts like a magnetic levitation train, primarily due to its strong visual impact, high interactivity, and clear connection to real-world technology. The physical Implementation phase proceeded through five distinct stages: cardboard prototyping, CAD development, 60% proof of concept, 90% prototype, and the final prototype.
 
-
                     
                     
                         
                         *Fig. 3. Detailed user interaction flow showing the logic of the satellite tracking game.*
-
 
                     
 
@@ -132,34 +116,26 @@ dg-publish: true
 
  Looking back, there were many things I wished I had known before starting the project. For example, I desperately wished I had labeled all of my wiring from the very beginning. During the first few prototypes, it was incredibly difficult to know what the purpose of each wire was, and I would often end up plugging the wiring into the wrong places, leading to hours of debugging. The initial wiring mess was a major learning curve.
 
-
-
                     
                         
                             
                             Issue 1
 
-
                             Wiring Mess
-
 
                         
                         
                             
                             Final Version
-
 
                             Main Circuit
 
-
                         
                         
                             
                             Final Version
 
-
                             Motor Circuit
-
 
                         
                     
@@ -174,10 +150,7 @@ dg-publish: true
 
  Both of these circuits represented the final, functional state of the exhibit's electronics.
 
-
-
                     Beyond the electronics, the structural design also required intense iteration. The initial ring design was flimsy and warped at the ends, making it difficult to maintain a sturdy connection to the arms of the satellites. We had to pivot from using string-mounted satellites to rigid rod-mounted ones to improve visual clarity and stability, and to ensure they came at an angle that did not interfere with the structure.
-
 
                 
             
@@ -187,23 +160,16 @@ dg-publish: true
                 
                     The final "Science in Orbit" exhibit successfully realized the project's physical constraints and overarching educational goals. Physically, the exhibit featured a motorized rotating ring with three 3D-printed satellites (representing LEO, MEO, and GEO orbits) rotating around a central Earth model. The system integrated an ultrasonic distance sensor, a joystick controller, an LED screen for scoring, and an LED light strip for visual feedback. All components were designed to be portable and durable, successfully fitting within the required transport bag. Furthermore, the team demonstrated exceptional resourcefulness; the total budget used for the project was merely $83.11, coming in well under the strict $100 limit, largely by utilizing recycled parts from the FYELIC makerspace and cost-effective wood for the housing.
 
-
                     
                     
                     *Fig. 4. Educational poster and feedback wall indicating strong user engagement during the exhibition.*
 
-
-
                     However, the journey was not without significant unexpected challenges. During the day of the final exhibition expo, disaster struck. One of the servos failed, which completely rendered the interactive scoring system non-functional. When I (Shreyas) desperately tried to fix the issue on-site by swapping out the cable, the situation cascaded—other parts of the circuit stopped working entirely, likely due to the fact that I was rapidly changing complex wires under extreme pressure. In the end, I was not able to fix the project in time to get it fully ready for the live expo judging. While this was deeply frustrating, the team demonstrated remarkable resilience by pivoting to a facilitated, educational interaction model. We used the physical ring and our highly detailed informational poster board to manually explain the concepts of satellite orbits and their real-world applications to the visiting children.
-
 
                     
                     Reflecting on the team dynamics and the engineering design process, I realized that my communication could have been better. If I were to go back and give myself feedback, I would have strongly suggested speaking up about technical issues sooner rather than later. I was worried about how I came across to my teammates since they did not have prior engineering experience. For example, I had known that our initial project idea (the maglev train) would not have worked interactively, but I didn't say anything on day one to stop the confusion ahead of time. I learned that clear, assertive communication is absolutely vital in a collaborative engineering environment.
 
-
-
                     Despite the mechanical failure at the expo, the educational impact of the exhibit was definitively proven. Over ten post-it notes were collected from the children at the exhibition, documenting their specific learning takeaways. Responses such as "LEO satellites help u get jobs + schoolwork done" and "They are used for predicting weather" indicated that the core message of how satellites impact daily life was successfully communicated and retained. The interaction time averaged about 2 minutes per child, and the project succeeded because the user comments showed them asking bigger questions once they started engaging with the models. Ultimately, the project met its humanitarian empowerment goal, leaving the children with a greater awareness of modern communications infrastructure and inspiring them to see themselves as future STEM innovators.
-
 
                 
             

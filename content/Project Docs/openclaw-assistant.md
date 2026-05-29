@@ -4,12 +4,10 @@ dg-publish: true
 
 ﻿
 
-
     
     
     OpenClaw Assistant | Portfolio
                 
-
 
     
         
@@ -39,13 +37,10 @@ dg-publish: true
 
                 As smart home ecosystems become increasingly fragmented, there is a growing need for a centralized, intelligent orchestration layer. Existing solutions often lock users into proprietary clouds or require significant manual configuration. OpenClaw was conceived to bridge this gap using modern LLM capabilities and self-hosted infrastructure.
 
-
-
                 
                     ### Problem Statement
 
                     Develop a low-latency, privacy-focused assistant capable of processing natural language intents to control heterogeneous IoT devices while maintaining high availability and providing proactive system health updates.
-
 
                 
 
@@ -83,8 +78,6 @@ dg-publish: true
                 ### OpenClaw as the Foundation
 
                 Derived from the concept of a "Universal Gripper" for data, OpenClaw acts as the middleware between raw sensor data (Netdata/Home Assistant) and high-level reasoning engines (Ollama/Gemini).
-
-
 
                 ### Model Landscape Research
 
@@ -140,9 +133,7 @@ dg-publish: true
 
                     **Advantages:** Zero local compute needed, highest intelligence, easy scaling.
 
-
                     **Limitations:** High latency for simple tasks, privacy concerns with home data.
-
 
                 
 
@@ -151,9 +142,7 @@ dg-publish: true
 
                     **Advantages:** 100% private, works offline, zero variable cost.
 
-
                     **Limitations:** Raspberry Pi 5 struggle with >8B models; slow inference.
-
 
                 
 
@@ -162,9 +151,7 @@ dg-publish: true
 
                     **Advantages:** Best of both worlds. Local processing for quick home control; Cloud for complex reasoning/summarization.
 
-
                     **Limitations:** Increased architectural complexity.
-
 
                 
             
@@ -216,8 +203,6 @@ dg-publish: true
                 ### Selected Approach
 
                 The Hybrid model was selected for its superior balance of privacy and power. Key components are containerized for portability across the home lab.
-
-
 
                 ### Iteration Roadmap
 
@@ -330,7 +315,6 @@ resend.send_email(to="admin@home.local", content=summary)
                     ### Lessons Learned
 
                     The biggest takeaway was the importance of data sanitization before sending it to an LLM. Raw Netdata logs are too verbose; pre-processing them into a "status delta" significantly improved summary quality.
-
 
                 
 

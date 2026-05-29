@@ -4,18 +4,15 @@ dg-publish: true
 
 ﻿
 
-
     
     
     🐍 Python Automations | Portfolio
                 
 
-
     
         
             
                 # 🐍 Python Automations
-
 
             
             
