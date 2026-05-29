@@ -4,6 +4,10 @@ dg-publish: true
 
 ﻿
 
+
+
+
+
     
 
     
@@ -12,6 +16,10 @@ dg-publish: true
 
                 
 
+
+
+
+
     
 
         
@@ -19,6 +27,7 @@ dg-publish: true
             
 
                 # Connect 4 AI Bot
+
 
             
 
@@ -38,6 +47,8 @@ dg-publish: true
 
         
 
+
+
         
         
 
@@ -47,11 +58,17 @@ dg-publish: true
 
                     This project features a high-performance Connect 4 AI engine built using Python. The goal was to create an opponent that is virtually unbeatable by human players, utilizing advanced search algorithms and heuristic evaluations to predict moves several turns in advance.
 
+
+
                     The system balances computational complexity with real-time responsiveness, providing an engaging and challenging experience for users through a web-based interface.
+
+
 
                 
 
             
+
+
 
             
 
@@ -83,6 +100,8 @@ dg-publish: true
 
             
 
+
+
             
 
                 ⚡ Alpha-Beta Pruning
@@ -112,6 +131,8 @@ dg-publish: true
                 
 
             
+
+
 
             
 
@@ -148,6 +169,8 @@ dg-publish: true
                     
 
                 
+
+
 
         
 

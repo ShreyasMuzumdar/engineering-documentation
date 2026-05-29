@@ -4,10 +4,12 @@ dg-publish: true
 
 ﻿
 
+
     
     
     MantisBot | Portfolio
                 
+
 
     
         
@@ -32,9 +34,11 @@ dg-publish: true
 
 Engineering
 
+
             Achievement
 
 Live Portfolio
+
 
         
 
@@ -45,7 +49,9 @@ Live Portfolio
             
                 MantisBot is Pioneer Robotics' entry for the Into the Deep season. The game requires collecting samples and specimens from an underwater-themed field and depositing them in scoring zones, with an end-game climb onto hanging bars. This case study documents the key mechanical decisions across the season — the chassis, claw, slide system, and climb — and the major redesign that shaped the final robot.
 
+
                 **Challenge:** Collect colored samples and metal specimens from the field and score them in designated zones at multiple heights, then ascend to hang on bars at the end of each match, all within tight size and weight limits.
+
 
             
 
@@ -57,7 +63,7 @@ Live Portfolio
 
         
         
-            🔧 Chassis & Drivetrain
+            🔧 Chassis &amp; Drivetrain
 
             
                 Problem
@@ -101,7 +107,7 @@ Live Portfolio
 
         
         
-            ⬆️ Slides Actuation & Pivot
+            ⬆️ Slides Actuation &amp; Pivot
 
             
                 Problem
@@ -149,6 +155,7 @@ Live Portfolio
             
                 MantisBot went through more iterations than any previous Pioneer Robotics robot. We attempted PTO and Differential Swerve — two mechanisms we'd never built — before recognizing midseason that the complexity was hurting reliability. The final robot strips back to what works: a dead-axle mecanum base, a single belt-driven slide system, a differential claw, and an integrated climb. Every mechanism on the robot can be accessed or removed for maintenance without disturbing adjacent systems. The Agile sprint methodology meant we had clear documentation of every decision, which made the midseason pivot much faster to execute than it would have been otherwise.
 
+
             
 
             
@@ -158,6 +165,7 @@ Live Portfolio
         
             Key Takeaways
             The 'Into the Deep' season was a masterclass in complexity management. Transitioning from an overly ambitious drivetrain to a simplified, high-reliability system mid-season taught me that engineering excellence isn't defined by the number of features, but by the robustness of the core mechanics under competition pressure.
+
 
             
                 

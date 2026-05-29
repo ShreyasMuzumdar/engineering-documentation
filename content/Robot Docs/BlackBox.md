@@ -4,10 +4,12 @@ dg-publish: true
 
 ﻿
 
+
     
     
     BlackBox | Portfolio
                 
+
 
     
         
@@ -32,9 +34,11 @@ dg-publish: true
 
 Engineering
 
+
             Placement
 
 🏅 State Finalist
+
 
         
 
@@ -45,7 +49,9 @@ Engineering
             
                 BlackBox was Pioneer Robotics' entry for the CENTERSTAGE season. What makes this robot's story unusual is that it wasn't our first robot that year — we competed in our first two qualifiers with a claw-based robot, realized it wouldn't be competitive at States, and committed to a complete rebuild with a 7-week deadline. This case study documents the mechanical decisions behind that redesign: the custom carbon fiber chassis, the four-iteration intake, the laser-cut polycarbonate depositor, and the drone launcher we engineered from scratch.
 
+
                 **Challenge:** Design a robot to collect game pieces called "pixels" from the field and deposit them onto a backdrop at specific locations, while also launching a paper airplane drone into a designated zone at the end of each match.
+
 
             
 
@@ -149,6 +155,7 @@ Engineering
             
                 BlackBox was designed with modularity as the core principle — any subsystem removable with four screws. This wasn't just a design preference; it was what made the 7-week rebuild possible. While one member worked on the depositor, the rest of the robot remained intact and testable. LED lights integrated with color sensors change color to indicate pixel count in the depositor, automatically reversing the intake if more than two pixels are loaded. We hanged in 100% of matches using the linear slides — no separate hanging mechanism was needed, since the slides doubled as the hang point with two integrated hooks.
 
+
             
 
             
@@ -158,6 +165,7 @@ Engineering
         
             Key Takeaways
             Building BlackBox challenged my understanding of integrated system design. Balancing high-speed intake requirements with precision delivery mechanisms required a holistic approach to robot geometry, ensuring every subsystem worked in harmony rather than in isolation.
+
 
             
                 

@@ -4,15 +4,18 @@ dg-publish: true
 
 ﻿
 
+
     
     
     Stretchbot | Portfolio
                 
 
+
     
         
             
                 # Stretchbot
+
 
             
             
@@ -32,9 +35,11 @@ dg-publish: true
 
 Engineering
 
+
             Achievement
 
 🏆 State Champion
+
 
         
 
@@ -45,7 +50,9 @@ Engineering
             
                 Stretchbot was Pioneer Robotics' entry for the PowerPlay season. Unlike a typical build cycle, we deliberately designed two robots that year — a restrained qualifier robot and the fully capable competition robot unveiled at states. This case study documents the mechanical decisions behind the chassis, extension, intake, and depositor, and what happened when we pushed further at the Maryland Tech Invitational.
 
+
                 **Challenge:** Design a robot to collect cones from ground stacks and deposits, then score them on junction poles at low, medium, and high heights as quickly as possible, within strict size and weight constraints.
+
 
             
 
@@ -57,7 +64,7 @@ Engineering
 
         
         
-            🔧 Chassis & Drivetrain
+            🔧 Chassis &amp; Drivetrain
 
             
                 Problem
@@ -79,7 +86,7 @@ Engineering
 
         
         
-            ↔️ Extension & Cone Transfer
+            ↔️ Extension &amp; Cone Transfer
 
             
                 Problem
@@ -101,7 +108,7 @@ Engineering
 
         
         
-            🎯 Intake & Cone Collection
+            🎯 Intake &amp; Cone Collection
 
             
                 Problem
@@ -123,7 +130,7 @@ Engineering
 
         
         
-            📍 Depositor & Aligner
+            📍 Depositor &amp; Aligner
 
             
                 Problem
@@ -169,6 +176,7 @@ Engineering
         
             Key Takeaways
             StretchBot pushed the limits of linear extension and structural stability. Developing a stable multi-stage lift within tight weight constraints reinforced the value of material selection and the necessity of rigorous stress analysis during the initial design phase.
+
 
             
                 
