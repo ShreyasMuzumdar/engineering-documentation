@@ -81,8 +81,8 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: left
-      priority: 60
+      position: right
+      priority: 20
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -263,7 +263,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw
