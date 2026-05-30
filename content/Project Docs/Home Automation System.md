@@ -1,5 +1,4 @@
 ---
-tags: "[]"
 cssclasses:
   - engineering-portfolio
 created: 2022-01-01
