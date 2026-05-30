@@ -30,4 +30,6 @@ Each project taught me something the previous one hadn't. Not just technical ski
 
 This is a record of that process, the projects, the decisions, the failures, and what I learned from each. It's not a portfolio in the traditional sense. It's documentation of an engineering mindset: define the problem, research the constraints, design a solution, build it, test it against reality, and improve. The [[Project Docs/setup-journey|notebook itself]] is even an engineering project, built by connecting Claude AI directly to Obsidian through the Model Context Protocol.
 
+Browse the [[Project Docs/index|Project Docs]] or the [[Robot Docs/index|Robot Docs]] to explore the full archive.
+
 As I look ahead to college and beyond, I'm not sure exactly where engineering will take me. But I know how I'll get there, by staying curious, thinking differently, and looking for the doors that aren't obvious.
