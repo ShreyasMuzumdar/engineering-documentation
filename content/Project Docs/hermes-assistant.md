@@ -1,13 +1,13 @@
 ---
-title: OpenClaw AI Assistant
+title: Hermes AI Assistant
 ---
 
-# 🛰️ OpenClaw AI Assistant
+# 🛰️ Hermes AI Assistant
 
 ## # 🎯 Define the Problem
 
 ### Background & Motivation
-As smart home ecosystems become increasingly fragmented, there is a growing need for a centralized, intelligent orchestration layer. Existing solutions often lock users into proprietary clouds or require significant manual configuration. OpenClaw was conceived to bridge this gap using modern LLM capabilities and self-hosted infrastructure.
+As smart home ecosystems become increasingly fragmented, there is a growing need for a centralized, intelligent orchestration layer. Existing solutions often lock users into proprietary clouds or require significant manual configuration. Hermes was conceived to bridge this gap using modern LLM capabilities and self-hosted infrastructure.
 
 ### Problem Statement
 Develop a low-latency, privacy-focused assistant capable of processing natural language intents to control heterogeneous IoT devices while maintaining high availability and providing proactive system health updates.
@@ -22,8 +22,8 @@ Develop a low-latency, privacy-focused assistant capable of processing natural l
 
 ## # 🔍 Research & Brainstorming
 
-### OpenClaw as the Foundation
-Derived from the concept of a "Universal Gripper" for data, OpenClaw acts as the middleware between raw sensor data (Netdata/Home Assistant) and high-level reasoning engines (Ollama/Gemini).
+### Hermes as the Foundation
+Derived from the concept of a "Universal Gripper" for data, Hermes acts as the middleware between raw sensor data (Netdata/Home Assistant) and high-level reasoning engines (Ollama/Gemini).
 
 ### Model Landscape Research
 | Model | Host | Pros | Cons |
@@ -117,11 +117,11 @@ The biggest takeaway was the importance of data sanitization before sending it t
 
 ---
 
-## 🤖 Integration with Hermes
+## 🤖 Hermes — Autonomous AI Agent
 
-To further optimize the development and maintenance of OpenClaw, I transitioned the system's orchestration to **Hermes**, an autonomous AI agent.
+Hermes serves as the autonomous AI agent powering the orchestration and ongoing development of this system.
 
-### Why Switch to Hermes?
+### Why Hermes?
 Unlike standard LLM interfaces, Hermes provides a direct, autonomous bridge to my local environment. The primary benefits include:
 - **Autonomous Execution:** Hermes can execute terminal commands, manage files, and deploy updates without requiring manual copy-pasting of code.
 - **Tool-Integrated Research:** It can browse the web in real-time to find updated API documentation for IoT protocols and LLM models.

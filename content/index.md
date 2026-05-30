@@ -58,7 +58,7 @@ Software experiments, automation tools, and electronics projects:
 - [[Project Docs/satellite-tracking|Satellite Tracking]]
 - [[Project Docs/home-automation|Home Automation]]
 - [[Project Docs/connect4|Connect 4]]
-- [[Project Docs/openclaw-assistant|OpenClaw Assistant]]
+- [[Project Docs/hermes-assistant|Hermes Assistant]]
 - [[Project Docs/3d-printing-control|3D Printing Control]]
 - [[Project Docs/auto-tracking-camera|Auto-Tracking Camera]]
 - [[Project Docs/hand-tracking-mouse|Hand Tracking Mouse]]
