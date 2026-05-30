@@ -104,7 +104,7 @@ On the day of the final exhibition, a servo failed, rendering the scoring system
 **Resilience in Action:**
 The team pivoted to a **facilitated interaction model**, using the physical ring and informational poster board to manually explain the concepts to the children.
 
-![Exhibition Feedback](/static/feedback#1.jpeg)
+![Exhibition Feedback](/static/feedback1.jpeg)
 *Fig. 4. Educational poster and feedback wall indicating strong user engagement.*
 
 ### 💭 Reflection
@@ -113,8 +113,6 @@ The team pivoted to a **facilitated interaction model**, using the physical ring
 
 ### 📈 Impact
 Despite mechanical failure, the educational impact was proven. Children noted that "LEO satellites help u get jobs + schoolwork done" and "They are used for predicting weather," proving the core message was retained.
-
----
 
 ## 📚 Sources
 1. [SMAP Mission Description](https://smap.jpl.nasa.gov/mission/description)
