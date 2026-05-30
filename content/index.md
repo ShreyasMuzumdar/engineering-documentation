@@ -2,59 +2,38 @@
 title: Shreyas's Engineering Notebook
 ---
 
-# 🛠️ Shreyas Muzumdar — Engineering Notebook
+# Shreyas Muzumdar — Engineering Notebook
 
-I'm a mechanical engineering student at Northeastern University, but my engineering journey started long before university. It started with a robot that didn't work, a printer that wouldn't level, and a home network I refused to leave unautomated.
-
-This notebook is a living record of that journey — not just what I built, but how I thought through it, what broke, what I changed, and what I learned.
+Throughout my life, I have often felt stuck — finding myself on paths others had paved for me. But I've always carried a deep desire to reach out and pursue something of my own. It wasn't until I found robotics that I realized this about myself.
 
 ---
 
-## The Design Process as a Way of Thinking
+## The Third Door
 
-Every project in this notebook follows the same underlying loop: understand the problem, research the constraints, prototype a solution, test it against reality, and iterate. That cycle — **define, research, design, build, test, improve** — isn't just a framework I apply to engineering. It's genuinely how I approach problems.
+A book changed the way I think. *The Third Door* by Alex Banayan introduced me to an idea that reframed how I approach every opportunity: life is like a nightclub with three doors. The first is the main entrance — the path everyone tells you to take. The second is the VIP entrance, reserved for the few. The third door is the one nobody mentions. It's hidden down the alley, behind a dumpster, through a crack in the wall. You have to go looking for it. The book's message is simple but powerful: success rarely comes from waiting in line. It comes from thinking differently and going after what you want before someone hands you permission.
 
-The earliest version of this showed up in robotics. Building FTC competition robots with Pioneer Robotics forced me to think about systems, not just parts. A mechanism that works in isolation fails on the field if it doesn't integrate cleanly with the drivetrain, the software, or the strategy. Three state finalist appearances and a state championship didn't come from any single great idea — they came from iterating faster and more deliberately than everyone else.
-
----
-
-## From Mechanical to Software to Everything in Between
-
-What surprised me as I got deeper into engineering was how artificial the boundary between hardware and software is. When I built out my [[Project Docs/home-automation|Home Automation System]], I wasn't just configuring smart devices — I was designing a network architecture, writing MQTT logic, and debugging Raspberry Pi firmware, all in service of a single goal: a home that responds intelligently to its environment.
-
-The same was true for my [[Project Docs/3d-printing-control|3D Printing setup]]. What started as trying to get cleaner prints from a stock Ender 3 V2 turned into a full systems project — dual Z-axis hardware modifications, a BL Touch for automated bed leveling, a direct drive extruder upgrade, and eventually a self-hosted OctoPrint server on a Raspberry Pi with OctoEverywhere for remote monitoring. I could have bought a better printer. I chose not to, because I wanted to understand the system.
+I first read it at the start of the pandemic. I remember not doing much — binge-reading comics, staring at the ceiling, days blurring together. That restlessness pushed me to pick up the book, and it completely shifted my perspective. I felt something click. Innovation, I realized, isn't just about solving problems — it's about finding doors that others don't even know exist.
 
 ---
 
-## Automating the Environment, Automating the Work
+## Building Things
 
-A recurring theme across my projects is using engineering to reduce friction — in my environment, in my workflow, and in my thinking. The [[Project Docs/hermes-assistant|Hermes Assistant]] is the clearest expression of this: a hybrid local/cloud AI system that monitors my home server infrastructure, controls IoT devices through natural language, and generates weekly automated health reports — running on consumer hardware I configured myself.
+From that point, everything changed. I started spending my time understanding computers from the ground up — not just using them, but taking them apart and figuring out how they worked. My favorite early project was building a gaming PC from scratch, manually selecting every component to fit my own specifications. I loved the process of it: researching parts, understanding the tradeoffs, assembling something that reflected exactly what I wanted. That curiosity didn't stay contained to computers. I started tinkering with whatever I could get my hands on, always asking what a system could do beyond its obvious purpose.
 
-The [[Project Docs/voice-assistant|Voice Assistant]] took the same philosophy to personal productivity: a fully local, privacy-focused assistant with a custom-cloned voice, running on a Mac or Raspberry Pi without sending data to any external service.
-
-[[Project Docs/python-automations|Python Automations]] and the [[Project Docs/auto-tracking-camera|Auto-Tracking Camera]] followed the same pattern — identify something tedious or manual, engineer a solution, and refine it until it actually works in the real world.
+When I joined my high school robotics team, something else shifted. Before, I was just a kid doing projects alone in his room. Suddenly I was part of a team — pitching to sponsors, collaborating under real constraints, learning what it actually takes to bring a design from concept to competition. The people around me pushed my thinking in ways I hadn't expected. One of my teammates showed me a deal on a 3D printer. I bought it immediately, not because I had a specific project in mind, but because I knew getting my hands on one would teach me something. It did. One afternoon I noticed that the handle on my mother's favorite pot had broken. I modeled a replacement and printed it. Watching her reaction to something I had made — something useful, made exactly for her — is a moment I still think about.
 
 ---
 
-## The Notebook Itself
+## Following the Curiosity
 
-Even this documentation system is an engineering project. The [[Project Docs/setup-journey|Setup Journey]] documents how I connected Claude AI to this Obsidian vault using the Model Context Protocol — including every configuration error, SSL certificate issue, and session drop that had to be debugged along the way. The goal was a system where I can speak or type instructions and have Claude edit files, rename documents, and push commits to GitHub directly.
+The summer before college, I kept building. An invisible mouse using hand-tracking. An auto-tracking camera powered by computer vision. And my proudest project: a drone I built myself, capable of moving in any direction and pulling off flips. I had dreamed about building one for years. Actually doing it — designing it, debugging it, flying it — felt like proof that the path I was on was the right one.
 
-That's the mindset this notebook represents: if there's friction, engineer it away.
+Each project taught me something the previous one hadn't. Not just technical skills, but how to approach problems I'd never seen before. How to stay curious when something doesn't work. How to iterate rather than abandon. How to find the third door when the obvious ones are closed.
 
 ---
 
-## 📚 Projects
+## What This Notebook Is
 
-- [[Project Docs/3d-printing-control|3D Printing Control]] — Ender 3 V2 hardware mods and remote monitoring via OctoPrint
-- [[Project Docs/hermes-assistant|Hermes Assistant]] — Hybrid AI orchestration layer for home automation and infrastructure
-- [[Project Docs/home-automation|Home Automation]] — Raspberry Pi, MQTT, and multi-vendor smart device integration
-- [[Project Docs/voice-assistant|Voice Assistant]] — Local, private voice assistant with custom-cloned voice
-- [[Project Docs/satellite-tracking|Satellite Tracking]] — Hardware and software system for real-time satellite tracking
-- [[Project Docs/auto-tracking-camera|Auto-Tracking Camera]] — Computer vision camera that follows movement autonomously
-- [[Project Docs/hand-tracking-mouse|Hand Tracking Mouse]] — MediaPipe-based hands-free mouse control
-- [[Project Docs/connect4|Connect 4 AI]] — Minimax algorithm implementation with a web interface
-- [[Project Docs/python-automations|Python Automations]] — Collection of scripts automating repetitive tasks
-- [[Robot Docs/StretchBot|StretchBot]] — 2023 MA State Champion FTC robot
-- [[Robot Docs/MantisBot|MantisBot]], [[Robot Docs/Shreybot|Shreybot]], [[Robot Docs/BlackBox|BlackBox]] — FTC competition robots across four seasons
-- [[Project Docs/setup-journey|The Setup Journey]] — How this notebook was built and connected to Claude
+This is a record of that process — the projects, the decisions, the failures, and what I learned from each. It's not a portfolio in the traditional sense. It's documentation of an engineering mindset: define the problem, research the constraints, design a solution, build it, test it against reality, and improve.
+
+As I look ahead to college and beyond, I'm not sure exactly where engineering will take me. But I know how I'll get there — by staying curious, thinking differently, and looking for the doors that aren't obvious.
