@@ -1,12 +1,5 @@
 ---
-tags:
-  - portfolio
-  - engineering
-  - iot
-  - home-automation
-  - raspberry-pi
-  - voice-assistant
-  - ollama
+tags: "[]"
 cssclasses:
   - engineering-portfolio
 created: 2022-01-01
