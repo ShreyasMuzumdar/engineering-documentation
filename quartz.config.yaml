@@ -226,7 +226,7 @@ plugins:
         GitHub: https://github.com/ShreyasMuzumdar
         LinkedIn: https://www.linkedin.com/in/shreyasmuzumdar/
   - source: github:quartz-community/recent-notes
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 20
