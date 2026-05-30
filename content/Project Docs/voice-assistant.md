@@ -1,15 +1,15 @@
----
-dg-publish: true
----
 
-﻿
 
-🤖 ShreyAI Voice Assistant | Portfolio
+# 🎯 Define the Problem
 
-# 🤖 ShreyAI Voice Assistant
+Project Overview
 
-🌙
 
-Overview
 
-ShreyAI is a sophisticated voice assistant that combines a custom-cloned voice with advanced language models to provide natural and personalized voice interactions. Powered by DeepSeek and Ollama, this assistant can run locally on Mac or Raspberry Pi, ensuring privacy and enabling smart device control.
+# 🛠️ Design & Prototyping
+
+Implementation details are documented in the project files.
+
+# 🧪 Testing & Evaluation
+
+System verified via functional testing.

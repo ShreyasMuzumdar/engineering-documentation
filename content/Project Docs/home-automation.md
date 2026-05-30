@@ -1,15 +1,15 @@
----
-dg-publish: true
----
 
-﻿
 
-🏠 Home Automation System | Portfolio
+# 🎯 Define the Problem
 
-# 🏠 Home Automation System
+Project Overview
 
-🌙
 
-Overview
 
-A comprehensive home automation platform that integrates and controls over 150 smart devices from various manufacturers. The system is built on a central Raspberry Pi server that acts as a unified hub for all home automation functions, providing seamless control and automation across the entire smart home ecosystem.
+# 🛠️ Design & Prototyping
+
+Implementation details are documented in the project files.
+
+# 🧪 Testing & Evaluation
+
+System verified via functional testing.

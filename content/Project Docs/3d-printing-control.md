@@ -1,11 +1,15 @@
----
-dg-publish: true
----
 
-﻿
 
-🖨️ 3D Printing Manufacturing Control System | Portfolio
+# 🎯 Define the Problem
 
-# 🖨️ 3D Printing Manufacturing Control System
+Project Overview
 
-🌙
+
+
+# 🛠️ Design & Prototyping
+
+Implementation details are documented in the project files.
+
+# 🧪 Testing & Evaluation
+
+System verified via functional testing.
