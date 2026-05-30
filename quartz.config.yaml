@@ -81,8 +81,8 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: right
-      priority: 30
+      position: left
+      priority: 60
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -169,7 +169,7 @@ plugins:
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -223,10 +223,13 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/ShreyasMuzumdar
+        LinkedIn: https://www.linkedin.com/in/shreyasmuzumdar/
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    layout:
+      position: right
+      priority: 20
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
