@@ -1,6 +1,6 @@
 # 🦾 MantisBot
 
-**Season:** Into the Deep | **Achievement:** Live Portfolio | **Category:** Engineering
+**Season:** Into the Deep | **Achievement:** Connect Award | **Category:** Engineering
 
 ## Overview
 
