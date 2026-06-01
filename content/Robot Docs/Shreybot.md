@@ -16,7 +16,7 @@ Shreybot was my first robot with Pioneer Robotics during the Freight Frenzy seas
 
 **Result:** The hybrid tines system achieved consistent pickup rates across all freight types during competition. The tradeoff was more complex assembly and higher material cost, but it eliminated mechanical failures during match play — which was worth the investment.
 
-![Shreybot tines collection system prototype with freight](/images/shreybot/IMG_3267.jpeg)
+![Shreybot tines collection system prototype with freight](/static/robot-photos/shreybot/IMG_3267.jpeg)
 
 ## Long Robotics Slides Vertical Stack
 
@@ -26,13 +26,13 @@ Shreybot was my first robot with Pioneer Robotics during the Freight Frenzy seas
 
 **Result:** The Long Robotics solution proved reliable throughout the season with no wear-related failures. The reduced speed meant slightly longer cycle times, but we prioritized consistency over speed. The cost savings let us allocate budget to other critical systems like intake redundancy.
 
-![Shreybot Long Robotics slides mounted on robot](/images/shreybot/IMG_3280.jpeg)
+![Shreybot Long Robotics slides mounted on robot](/static/robot-photos/shreybot/IMG_3280.jpeg)
 
 ## System Integration
 
 The collection system and linear stack required tight integration to handle freight handoff smoothly. The intake tilts freight into the collection tines, then the slides extend to position it precisely for deposit. This sequential motion reduced jamming compared to simultaneous actuation, though it added roughly 1 second per cycle.
 
-![Shreybot full robot — competition ready](/images/shreybot/IMG_3405.jpeg)
+![Shreybot full robot — competition ready](/static/robot-photos/shreybot/IMG_3405.jpeg)
 
 ## Key Takeaways
 

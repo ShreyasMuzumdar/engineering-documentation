@@ -28,7 +28,7 @@ We began the season with ambitious goals — implementing a Power Take Off (PTO)
 
 **Result:** The final differential claw was lightweight, reliable inside the Submersible, and gave us more rotational freedom than either previous iteration. The unexpected benefit was that the PTO development — which we ultimately didn't use on the final robot — directly taught us the bevel gear principles that made the claw work. The failed mechanism produced the knowledge that improved the working one.
 
-![MantisBot differential claw CAD — bevel gear mechanism](/images/mantisbot/claw.png)
+![MantisBot differential claw CAD — bevel gear mechanism](/static/robot-photos/mantisbot/claw.png)
 
 ## Slides Actuation and Pivot
 
@@ -38,7 +38,7 @@ We began the season with ambitious goals — implementing a Power Take Off (PTO)
 
 **Result:** The single-slide system was meaningfully more reliable than the dual-slide approach. The hole-shift fix resolved belt skipping entirely. The aluminum inserts held through the full competition season with no failures.
 
-![MantisBot slides pivot mechanism CAD](/images/mantisbot/slides_pivot.png)
+![MantisBot slides pivot mechanism CAD](/static/robot-photos/mantisbot/slides_pivot.png)
 
 ## Ascent and Climb
 
@@ -48,13 +48,13 @@ We began the season with ambitious goals — implementing a Power Take Off (PTO)
 
 **Result:** Integrating the climb into the existing slide system eliminated a dedicated mechanism entirely, saving weight and motor ports. The torque-calculated motor selection meant the climb was reliable without being over-engineered. The static hooks' minimal profile meant they didn't interfere with normal scoring operations during teleop.
 
-![MantisBot climbing at competition](/images/mantisbot/climb.png)
+![MantisBot climbing at competition](/static/robot-photos/mantisbot/climb.png)
 
 ## Full Robot
 
 MantisBot went through more iterations than any previous Pioneer Robotics robot. We attempted PTO and Differential Swerve — two mechanisms we'd never built — before recognizing midseason that the complexity was hurting reliability. The final robot strips back to what works: a dead-axle mecanum base, a single belt-driven slide system, a differential claw, and an integrated climb. Every mechanism on the robot can be accessed or removed for maintenance without disturbing adjacent systems. The Agile sprint methodology meant we had clear documentation of every decision, which made the midseason pivot much faster to execute.
 
-![MantisBot full robot CAD](/images/mantisbot/full_robot.png)
+![MantisBot full robot CAD](/static/robot-photos/mantisbot/full_robot.png)
 
 ## Key Takeaways
 

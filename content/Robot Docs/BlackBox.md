@@ -8,7 +8,7 @@ BlackBox was Pioneer Robotics' entry for the CENTERSTAGE season. What makes this
 
 **Challenge:** Design a robot to collect game pieces called "pixels" from the field and deposit them onto a backdrop at specific locations, while also launching a paper airplane drone into a designated zone at the end of each match.
 
-![BlackBox classic robot — carbon fiber chassis with intake system](/images/blackbox/classic_robot.jpeg)
+![BlackBox classic robot — carbon fiber chassis with intake system](/static/robot-photos/blackbox/classic_robot.jpeg)
 
 ## The Big Redesign
 
@@ -30,7 +30,7 @@ After our WPI qualifier, we did an honest debrief. Our claw-based robot had a ma
 
 **Result:** The final intake collected pixels consistently from both the ground and stacks, required less driver precision than earlier iterations, and transferred cleanly to the depositor. The chain-and-sprocket drive ran faster than gears while using only one motor. The iRobot engineers' guidance on combining tines and belts was directly applied here and made the difference.
 
-![BlackBox intake system with compliant wheels and O-ring belts](/images/blackbox/intake.jpeg)
+![BlackBox intake system with compliant wheels and O-ring belts](/static/robot-photos/blackbox/intake.jpeg)
 
 ## Depositor
 
@@ -40,7 +40,7 @@ After our WPI qualifier, we did an honest debrief. Our claw-based robot had a ma
 
 **Result:** Switching from the claw to the compliant-wheel depositor quintupled our average points scored per match — from 20 to 98. The ability to drop one pixel at a time gave drivers precise control over scoring placement. After breaking 8 polycarbonate slide mounts during testing, I switched to custom-machined aluminum versions which held through the rest of the season with no failures.
 
-![BlackBox depositor CAD — compliant wheel design](/images/blackbox/depositor.png)
+![BlackBox depositor CAD — compliant wheel design](/static/robot-photos/blackbox/depositor.png)
 
 ## Drone Launcher
 
@@ -50,13 +50,13 @@ After our WPI qualifier, we did an honest debrief. Our claw-based robot had a ma
 
 **Result:** We successfully launched the drone in 100% of our matches at States. The 150-trial data-driven approach to finding the launch angle was the key — without empirical testing, we would have stayed in the wrong angle range.
 
-![BlackBox drone launcher CAD](/images/blackbox/planelauncher.png)
+![BlackBox drone launcher CAD](/static/robot-photos/blackbox/planelauncher.png)
 
 ## Full Robot
 
 BlackBox was designed with modularity as the core principle — any subsystem removable with four screws. This wasn't just a design preference; it was what made the 7-week rebuild possible. While one member worked on the depositor, the rest of the robot remained intact and testable. LED lights integrated with color sensors change color to indicate pixel count in the depositor, automatically reversing the intake if more than two pixels are loaded. We hanged in 100% of matches using the linear slides — no separate hanging mechanism was needed, since the slides doubled as the hang point with two integrated hooks.
 
-![BlackBox full robot CAD — complete assembly](/images/blackbox/full_robot.png)
+![BlackBox full robot CAD — complete assembly](/static/robot-photos/blackbox/full_robot.png)
 
 ## Key Takeaways
 

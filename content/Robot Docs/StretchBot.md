@@ -28,7 +28,7 @@ We made the deliberate decision to field a less capable robot at the qualifier. 
 
 **Result:** The linkage-driven system achieved reliable full extension throughout the season. The 5-turn servo upgrade noticeably tightened extension consistency, reducing missed transfers during high-speed cycling. The tradeoff — increased mechanical complexity — was worth it for the scoring reliability gained.
 
-![StretchBot linkage extension system CAD](/images/stretchbot/linkage.png)
+![StretchBot linkage extension system CAD](/static/robot-photos/stretchbot/linkage.png)
 
 ## Intake and Cone Collection
 
@@ -38,7 +38,7 @@ We made the deliberate decision to field a less capable robot at the qualifier. 
 
 **Result:** The arm-mounted beveled claw became our most reliable collection method. The bevel geometry caused cones to self-center on contact, reducing driver precision requirements and cutting collection time per cycle. The Dycem adhesive added a margin of safety on borderline grips.
 
-![StretchBot beveled claw CAD — mathematically derived taper geometry](/images/stretchbot/claw.png)
+![StretchBot beveled claw CAD — mathematically derived taper geometry](/static/robot-photos/stretchbot/claw.png)
 
 ## Depositor and Aligner
 
@@ -48,7 +48,7 @@ We made the deliberate decision to field a less capable robot at the qualifier. 
 
 **Result:** The ring depositor eliminated the jam risk from the first version. Combined with the aligner physically latching onto the junction, drivers could execute deposits with significantly higher confidence — critical for achieving our 269-point high score and maintaining consistency throughout States.
 
-![StretchBot ring depositor CAD](/images/stretchbot/depositor.png)
+![StretchBot ring depositor CAD](/static/robot-photos/stretchbot/depositor.png)
 
 ## Post-Season: Maryland Tech Invitational
 
@@ -58,7 +58,7 @@ I designed the odometry wheel to be spring-loaded so it would maintain consisten
 
 During a match at MTI, our robot made brief contact with an opposing robot. The impact lifted the rigidly-mounted odometry wheel off the ground momentarily. With no position feedback, the autonomous routine lost its reference frame and drove the robot directly into the wall. The spring-loaded design I had originally prototyped would have absorbed that impact and maintained contact. It was an expensive lesson in not abandoning the original design intent under time pressure.
 
-![StretchBot being assembled in the lab — Pioneer Robotics team 12589](/images/stretchbot/fullrobot.jpeg)
+![StretchBot being assembled in the lab — Pioneer Robotics team 12589](/static/robot-photos/stretchbot/fullrobot.jpeg)
 
 ## Key Takeaways
 
