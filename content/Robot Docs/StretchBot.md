@@ -10,62 +10,58 @@ StretchBot was Pioneer Robotics' entry for the PowerPlay season. Unlike a typica
 
 ## Season Strategy
 
-We made the deliberate decision to field a less capable robot at the qualifier. The goal was to avoid telegraphing our full design to competitors before States — an element of surprise that gave us a strategic edge during alliance selections. Critically, I carried over key design elements from the qualifier robot so we wouldn't be starting from scratch for States.
+We made the deliberate decision to field a less capable robot at the qualifier to avoid telegraphing our full design to competitors before States. Critically, I carried over key design elements from the qualifier robot so we wouldn't be starting from scratch for States.
 
 ## Chassis and Drivetrain
 
-**Problem:** The robot needed to navigate freely between junction poles on a dense field. Getting the footprint wrong would mean catching on poles or wasting internal volume. I needed a mathematically verified chassis size, not an eyeballed one.
+**Problem:** The robot needed to navigate freely between junction poles on a dense field. I needed a mathematically verified chassis size, not an eyeballed one.
 
-**Design Decision:** I started with a 13" x 16" mecanum drive chassis, verifying field clearance by calculating the robot's diagonal using a hypotenuse check against the junction spacing. When mechanism changes required more internal space for servos, I widened the chassis to 15" x 16" — accounting for intake geometry and rewiring simultaneously. In the final revision I added custom side plates to protect the mecanum wheels, adding a half inch to each dimension but eliminating wheel damage risk during matches.
+**Design Decision:** I started with a 13" x 16" mecanum drive chassis, verifying field clearance by calculating the robot's diagonal using a hypotenuse check against the junction spacing. When mechanism changes required more internal space, I widened the chassis to 15" x 16". In the final revision I added custom side plates to protect the mecanum wheels.
 
 **Result:** The three-version chassis evolution produced a footprint that satisfied field constraints while providing the internal volume needed for all mechanisms. The side plates proved their value — no wheel damage occurred across the full season including States.
 
 ## Extension and Cone Transfer
 
-**Problem:** We needed horizontal extension to reach cones and transfer them internally for scoring. The robot had to extend fully to reach the ground stack, but retract compactly within the size limit. Our first attempt — belt-driven linear slides — couldn't achieve full extension because the belt geometry physically limited travel range.
+**Problem:** We needed horizontal extension to reach cones and transfer them internally for scoring. Our first attempt — belt-driven linear slides — couldn't achieve full extension because the belt geometry physically limited travel range.
 
-**Design Decision:** I replaced the belt drive with polyplastic composite linkages on each end of the slides. One linkage attached to the intake arm, the other to a GoBilda torque servo — the entire extension mechanism ran on servos rather than motors, freeing motor ports and allowing full slide travel. After validating the linkage system, I upgraded to GoBilda 5-turn torque servos for finer rotational control over extension position, which directly improved cone placement precision.
+**Design Decision:** I replaced the belt drive with polyplastic composite linkages on each end of the slides, running on servos rather than motors. After validating the linkage system, I upgraded to GoBilda 5-turn torque servos for finer rotational control over extension position.
 
-**Result:** The linkage-driven system achieved reliable full extension throughout the season. The 5-turn servo upgrade noticeably tightened extension consistency, reducing missed transfers during high-speed cycling. The tradeoff — increased mechanical complexity — was worth it for the scoring reliability gained.
+**Result:** The linkage-driven system achieved reliable full extension throughout the season. The 5-turn servo upgrade noticeably tightened extension consistency.
 
-![StretchBot linkage extension system CAD](/static/robot-photos/stretchbot/linkage.png)
+![StretchBot linkage extension system CAD](/static/images/robot-photos/stretchbot/linkage.png)
 
 ## Intake and Cone Collection
 
 **Problem:** PowerPlay cones are tapered, making them difficult to grip reliably at speed. We needed an intake that could grab a cone consistently without requiring the driver to precisely align the entire robot on every approach.
 
-**Design Decision:** I went through three claw iterations. The first was a rounded polyplastic composite claw with Dycem adhesive on the interior for friction — functional, but only worked when driving directly into the cone. The second was a beveled claw: I calculated the cone's taper geometry (bottom diameter 65.4mm, top 60.9mm, height 14mm) to derive the correct bevel slope, CADed the profile in SolidWorks, and powered it with a GoBilda superspeed servo. The third version mounted this claw on a polycarbonate arm, adding horizontal reach so the driver could collect cones from a distance rather than repositioning the whole robot.
+**Design Decision:** I went through three claw iterations, ultimately landing on a beveled claw: I calculated the cone's taper geometry (bottom diameter 65.4mm, top 60.9mm, height 14mm) to derive the correct bevel slope, CADed the profile in SolidWorks, and mounted it on a polycarbonate arm for horizontal reach.
 
-**Result:** The arm-mounted beveled claw became our most reliable collection method. The bevel geometry caused cones to self-center on contact, reducing driver precision requirements and cutting collection time per cycle. The Dycem adhesive added a margin of safety on borderline grips.
+**Result:** The arm-mounted beveled claw became our most reliable collection method. The bevel geometry caused cones to self-center on contact, reducing driver precision requirements and cutting collection time per cycle.
 
-![StretchBot beveled claw CAD — mathematically derived taper geometry](/static/robot-photos/stretchbot/claw.png)
+![StretchBot beveled claw CAD — mathematically derived taper geometry](/static/images/robot-photos/stretchbot/claw.png)
 
 ## Depositor and Aligner
 
-**Problem:** Scoring required placing a cone onto a junction pole accurately and quickly. Our first depositor — a cone-shaped insert that flipped the cone upright onto the pole — blocked the internal transfer path, making efficient cycling impossible. Separately, drivers needed a reliable way to align to junctions without burning time on visual guesswork each cycle.
+**Problem:** Scoring required placing a cone onto a junction pole accurately and quickly. Our first depositor blocked the internal transfer path, making efficient cycling impossible.
 
-**Design Decision:** I redesigned the depositor as an open ring shape — the cone slips in from above rather than requiring a full flip motion, which cleared the internal transfer path and enabled much faster cycling. I mounted it on vertical linear slides driven by a GoBilda SuperSpeed servo for rapid height changes between junction levels. For the aligner, I started with a thin PLA filament guide for visual positioning, then redesigned it to physically grab the junction during scoring. After checking the game manual I confirmed it needed to be at least 2 inches in radius to legally contact the pole, so I sized it accordingly.
+**Design Decision:** I redesigned the depositor as an open ring shape — the cone slips in from above rather than requiring a full flip motion, which cleared the internal transfer path. I mounted it on vertical linear slides driven by a GoBilda SuperSpeed servo. The aligner was redesigned to physically grab the junction during scoring.
 
-**Result:** The ring depositor eliminated the jam risk from the first version. Combined with the aligner physically latching onto the junction, drivers could execute deposits with significantly higher confidence — critical for achieving our 269-point high score and maintaining consistency throughout States.
+**Result:** The ring depositor eliminated the jam risk from the first version. Combined with the aligner physically latching onto the junction, drivers could execute deposits with significantly higher confidence — critical for achieving our 269-point high score.
 
-![StretchBot ring depositor CAD](/static/robot-photos/stretchbot/depositor.png)
+![StretchBot ring depositor CAD](/static/images/robot-photos/stretchbot/depositor.png)
 
 ## Post-Season: Maryland Tech Invitational
 
-After winning States, we were invited to the Maryland Tech Invitational — a field of the top 40 FTC teams in the world. To compete at that level we needed more precise autonomous positioning. Our existing system used drive motor encoders, which accumulate drift over time. I decided to add a dedicated odometry wheel for more accurate real-time position tracking.
+After winning States, we were invited to the Maryland Tech Invitational — a field of the top 40 FTC teams in the world. I designed a spring-loaded odometry wheel for more accurate positioning, but switched to a fixed rigid mount under time pressure. During a match at MTI, contact with an opposing robot lifted the wheel momentarily, causing the autonomous routine to lose its reference frame and drive into the wall. The spring-loaded design I had originally prototyped would have absorbed that impact. It was an expensive lesson in not abandoning the original design intent under time pressure.
 
-I designed the odometry wheel to be spring-loaded so it would maintain consistent ground contact regardless of field surface variation. The concept was correct, but the springs available weren't stiff enough to prevent the wheel from skipping under load. Rather than delay the build, I switched to a fixed rigid mount — simpler, and still a meaningful accuracy improvement over motor encoders alone.
-
-During a match at MTI, our robot made brief contact with an opposing robot. The impact lifted the rigidly-mounted odometry wheel off the ground momentarily. With no position feedback, the autonomous routine lost its reference frame and drove the robot directly into the wall. The spring-loaded design I had originally prototyped would have absorbed that impact and maintained contact. It was an expensive lesson in not abandoning the original design intent under time pressure.
-
-![StretchBot being assembled in the lab — Pioneer Robotics team 12589](/static/robot-photos/stretchbot/fullrobot.jpeg)
+![StretchBot being assembled in the lab — Pioneer Robotics team 12589](/static/images/robot-photos/stretchbot/fullrobot.jpeg)
 
 ## Key Takeaways
 
-1. **Strategy Is Part of Design** — Fielding a deliberate underperformer at the qualifier required designing upgrade paths into the robot from the start. The strategic decision shaped every mechanical choice made in the first build.
-2. **Measure Before You Prototype** — The beveled claw only worked because I calculated the cone's taper mathematically first. Starting from measured geometry gets you closer on iteration one and avoids chasing a shape by feel.
-3. **Don't Compromise the Original Intent** — The spring-loaded odometry was the right design. Switching to a rigid mount to save time cost us at MTI. When a change is driven by schedule rather than engineering reasoning, it needs to be flagged — not quietly shipped.
-4. **Public Failures Teach Better** — The MTI failure was livestreamed and spread widely. That visibility made the lesson about sensor robustness and mechanical redundancy concrete in a way that no successful run could have.
+1. **Strategy Is Part of Design** — Fielding a deliberate underperformer at the qualifier required designing upgrade paths into the robot from the start.
+2. **Measure Before You Prototype** — The beveled claw only worked because I calculated the cone's taper mathematically first.
+3. **Don't Compromise the Original Intent** — The spring-loaded odometry was the right design. Switching to a rigid mount to save time cost us at MTI.
+4. **Public Failures Teach Better** — The MTI failure was livestreamed and spread widely. That visibility made the lesson about sensor robustness concrete in a way that no successful run could have.
 
 ## Related Robots
 - [[Robot Docs/MantisBot|MantisBot]]
