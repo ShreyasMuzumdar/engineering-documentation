@@ -28,6 +28,8 @@ We made the deliberate decision to field a less capable robot at the qualifier. 
 
 **Result:** The linkage-driven system achieved reliable full extension throughout the season. The 5-turn servo upgrade noticeably tightened extension consistency, reducing missed transfers during high-speed cycling. The tradeoff — increased mechanical complexity — was worth it for the scoring reliability gained.
 
+![StretchBot linkage extension system CAD](/images/stretchbot/linkage.png)
+
 ## Intake and Cone Collection
 
 **Problem:** PowerPlay cones are tapered, making them difficult to grip reliably at speed. We needed an intake that could grab a cone consistently without requiring the driver to precisely align the entire robot on every approach.
@@ -35,6 +37,8 @@ We made the deliberate decision to field a less capable robot at the qualifier. 
 **Design Decision:** I went through three claw iterations. The first was a rounded polyplastic composite claw with Dycem adhesive on the interior for friction — functional, but only worked when driving directly into the cone. The second was a beveled claw: I calculated the cone's taper geometry (bottom diameter 65.4mm, top 60.9mm, height 14mm) to derive the correct bevel slope, CADed the profile in SolidWorks, and powered it with a GoBilda superspeed servo. The third version mounted this claw on a polycarbonate arm, adding horizontal reach so the driver could collect cones from a distance rather than repositioning the whole robot.
 
 **Result:** The arm-mounted beveled claw became our most reliable collection method. The bevel geometry caused cones to self-center on contact, reducing driver precision requirements and cutting collection time per cycle. The Dycem adhesive added a margin of safety on borderline grips.
+
+![StretchBot beveled claw CAD — mathematically derived taper geometry](/images/stretchbot/claw.png)
 
 ## Depositor and Aligner
 
@@ -44,6 +48,8 @@ We made the deliberate decision to field a less capable robot at the qualifier. 
 
 **Result:** The ring depositor eliminated the jam risk from the first version. Combined with the aligner physically latching onto the junction, drivers could execute deposits with significantly higher confidence — critical for achieving our 269-point high score and maintaining consistency throughout States.
 
+![StretchBot ring depositor CAD](/images/stretchbot/depositor.png)
+
 ## Post-Season: Maryland Tech Invitational
 
 After winning States, we were invited to the Maryland Tech Invitational — a field of the top 40 FTC teams in the world. To compete at that level we needed more precise autonomous positioning. Our existing system used drive motor encoders, which accumulate drift over time. I decided to add a dedicated odometry wheel for more accurate real-time position tracking.
@@ -51,6 +57,8 @@ After winning States, we were invited to the Maryland Tech Invitational — a fi
 I designed the odometry wheel to be spring-loaded so it would maintain consistent ground contact regardless of field surface variation. The concept was correct, but the springs available weren't stiff enough to prevent the wheel from skipping under load. Rather than delay the build, I switched to a fixed rigid mount — simpler, and still a meaningful accuracy improvement over motor encoders alone.
 
 During a match at MTI, our robot made brief contact with an opposing robot. The impact lifted the rigidly-mounted odometry wheel off the ground momentarily. With no position feedback, the autonomous routine lost its reference frame and drove the robot directly into the wall. The spring-loaded design I had originally prototyped would have absorbed that impact and maintained contact. It was an expensive lesson in not abandoning the original design intent under time pressure.
+
+![StretchBot being assembled in the lab — Pioneer Robotics team 12589](/images/stretchbot/fullrobot.jpeg)
 
 ## Key Takeaways
 

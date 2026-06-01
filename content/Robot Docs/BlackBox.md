@@ -8,6 +8,8 @@ BlackBox was Pioneer Robotics' entry for the CENTERSTAGE season. What makes this
 
 **Challenge:** Design a robot to collect game pieces called "pixels" from the field and deposit them onto a backdrop at specific locations, while also launching a paper airplane drone into a designated zone at the end of each match.
 
+![BlackBox classic robot — carbon fiber chassis with intake system](/images/blackbox/classic_robot.jpeg)
+
 ## The Big Redesign
 
 After our WPI qualifier, we did an honest debrief. Our claw-based robot had a match OPR of 20 points — not competitive for States. Rather than patch the existing design, we committed to a full rebuild with a hard deadline: 7 weeks to States. I designed the new chassis from scratch, iterated through four intake designs, and built a modular robot that could swap subsystems independently. The result was a match OPR of 98 points — nearly a 5x improvement.
@@ -28,6 +30,8 @@ After our WPI qualifier, we did an honest debrief. Our claw-based robot had a ma
 
 **Result:** The final intake collected pixels consistently from both the ground and stacks, required less driver precision than earlier iterations, and transferred cleanly to the depositor. The chain-and-sprocket drive ran faster than gears while using only one motor. The iRobot engineers' guidance on combining tines and belts was directly applied here and made the difference.
 
+![BlackBox intake system with compliant wheels and O-ring belts](/images/blackbox/intake.jpeg)
+
 ## Depositor
 
 **Problem:** Scoring requires placing pixels precisely onto a backdrop. Our first depositor was a claw — simple, but never exactly level with the backdrop due to heavy servos, and inaccurate when depositing. Our second iteration was a rigid polycarbonate depositor — easier to sub-iterate, but it couldn't drop one pixel at a time and had inconsistent transfer from the intake.
@@ -35,6 +39,8 @@ After our WPI qualifier, we did an honest debrief. Our claw-based robot had a ma
 **Design Decision:** The final depositor used a laser-cut polycarbonate body with compliant wheels that rotate to push pixels upward and allow releasing one at a time. It can tilt parallel to the backdrop within 1/16 of an inch — a precision requirement that took many iterations to achieve. I made all custom parts laser-cuttable so a new prototype could be produced in minutes and tested immediately. The custom servo hub takes 17 seconds to cut. Belt-driven Misumi linear slides integrated the depositor and hanging mechanism into one system, with two GoBilda servo gearboxes tilting the slides for accurate pixel placement anywhere on the board.
 
 **Result:** Switching from the claw to the compliant-wheel depositor quintupled our average points scored per match — from 20 to 98. The ability to drop one pixel at a time gave drivers precise control over scoring placement. After breaking 8 polycarbonate slide mounts during testing, I switched to custom-machined aluminum versions which held through the rest of the season with no failures.
+
+![BlackBox depositor CAD — compliant wheel design](/images/blackbox/depositor.png)
 
 ## Drone Launcher
 
@@ -44,9 +50,13 @@ After our WPI qualifier, we did an honest debrief. Our claw-based robot had a ma
 
 **Result:** We successfully launched the drone in 100% of our matches at States. The 150-trial data-driven approach to finding the launch angle was the key — without empirical testing, we would have stayed in the wrong angle range.
 
+![BlackBox drone launcher CAD](/images/blackbox/planelauncher.png)
+
 ## Full Robot
 
 BlackBox was designed with modularity as the core principle — any subsystem removable with four screws. This wasn't just a design preference; it was what made the 7-week rebuild possible. While one member worked on the depositor, the rest of the robot remained intact and testable. LED lights integrated with color sensors change color to indicate pixel count in the depositor, automatically reversing the intake if more than two pixels are loaded. We hanged in 100% of matches using the linear slides — no separate hanging mechanism was needed, since the slides doubled as the hang point with two integrated hooks.
+
+![BlackBox full robot CAD — complete assembly](/images/blackbox/full_robot.png)
 
 ## Key Takeaways
 
