@@ -117,7 +117,7 @@ The biggest takeaway was the importance of data sanitization before sending it t
 
 ---
 
-## 🤖 Hermes — Autonomous AI Agent
+## 🤖 Hermes , Autonomous AI Agent
 
 Hermes serves as the autonomous AI agent powering the orchestration and ongoing development of this system.
 

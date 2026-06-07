@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-This project documents my journey building a fully remote-controllable 3D printing setup — starting from a stock printer, working through hardware limitations, and eventually arriving at a system I can monitor and manage from anywhere. A core motivation was intentional: rather than jumping straight to a high-end printer, I wanted to deeply understand the engineering and software behind how 3D printers actually work.
+This project documents my journey building a fully remote-controllable 3D printing setup , starting from a stock printer, working through hardware limitations, and eventually arriving at a system I can monitor and manage from anywhere. A core motivation was intentional: rather than jumping straight to a high-end printer, I wanted to deeply understand the engineering and software behind how 3D printers actually work.
 
 ---
 
@@ -14,14 +14,14 @@ I started with a stock **Creality Ender 3 V2**. While it's a capable entry-level
 
 ### Upgrades & Modifications
 
-#### 1. BL Touch — Automatic Bed Leveling
+#### 1. BL Touch , Automatic Bed Leveling
 The first major issue was an unlevel bed, which caused inconsistent first layers and failed prints. I solved this by adding a **BL Touch probe**, which automatically maps the bed surface and compensates for any unevenness during printing.
 
 #### 2. Dual Z-Axis
 The stock Ender 3 V2 only has a single Z-axis motor on one side of the gantry. This caused the X-axis to tilt slightly over time, leading to inaccuracy across the full print width. Adding a **second Z-axis** (dual Z upgrade) kept the gantry level throughout the full build height, significantly improving print consistency.
 
 #### 3. Direct Drive Extruder Upgrade
-I also added a **direct drive extruder** conversion. While not strictly necessary, moving the extruder directly above the hotend reduced the distance filament had to travel, which improved retraction performance and reduced variability in extrusion — particularly useful for flexible or stringy filaments.
+I also added a **direct drive extruder** conversion. While not strictly necessary, moving the extruder directly above the hotend reduced the distance filament had to travel, which improved retraction performance and reduced variability in extrusion , particularly useful for flexible or stringy filaments.
 
 ---
 
@@ -36,9 +36,9 @@ To control the printer, I set up **OctoPrint** on a spare **Raspberry Pi**. Octo
 - Control printer settings and temperatures
 - Access community plugins for extended functionality
 
-### OctoEverywhere — Remote Access
+### OctoEverywhere , Remote Access
 
-To enable monitoring from anywhere, I integrated **OctoEverywhere**, which creates a secure tunnel to the OctoPrint instance. This lets me check in on active prints remotely — whether I'm in another room or away from home — and catch issues before they waste a full spool of filament.
+To enable monitoring from anywhere, I integrated **OctoEverywhere**, which creates a secure tunnel to the OctoPrint instance. This lets me check in on active prints remotely , whether I'm in another room or away from home , and catch issues before they waste a full spool of filament.
 
 ---
 
@@ -51,7 +51,7 @@ Deliberately starting with a budget printer that required troubleshooting and up
 - How to set up and self-host a print management server
 - How to architect a system for reliable remote access
 
-The ability to monitor and control the printer from anywhere wasn't just a convenience feature — it became a major driver of how well I understood the system end-to-end.
+The ability to monitor and control the printer from anywhere wasn't just a convenience feature , it became a major driver of how well I understood the system end-to-end.
 
 ---
 

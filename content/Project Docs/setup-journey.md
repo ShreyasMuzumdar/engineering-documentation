@@ -1,8 +1,8 @@
-# 🛠️ The Setup Journey — Engineering Documentation with Claude MCP & Obsidian
+# 🛠️ The Setup Journey , Engineering Documentation with Claude MCP & Obsidian
 
 ## 🎯 Overview
 
-This document covers how this engineering notebook was built — specifically how I connected **Claude AI** to my **Obsidian vault** using the **Model Context Protocol (MCP)**, enabling Claude to read and write files in my vault directly from the Claude Desktop app. The goal was to use Claude as an intelligent documentation assistant that could edit project files, rename documents, push to GitHub, and help me maintain my engineering portfolio hands-free.
+This document covers how this engineering notebook was built , specifically how I connected **Claude AI** to my **Obsidian vault** using the **Model Context Protocol (MCP)**, enabling Claude to read and write files in my vault directly from the Claude Desktop app. The goal was to use Claude as an intelligent documentation assistant that could edit project files, rename documents, push to GitHub, and help me maintain my engineering portfolio hands-free.
 
 ---
 
@@ -42,11 +42,11 @@ The Claude Desktop MCP config (`claude_desktop_config.json`) was set up to launc
 
 ---
 
-## 🐛 Troubleshooting — Issues Encountered During Setup
+## 🐛 Troubleshooting , Issues Encountered During Setup
 
 Getting this working was not straightforward. Several distinct errors had to be debugged in sequence.
 
-### Issue 1: Wrong `npx` Path — "not recognized as an internal or external command"
+### Issue 1: Wrong `npx` Path , "not recognized as an internal or external command"
 
 The first attempt used the system-wide Node.js path (`C:\Program Files\nodejs\npx.cmd`). Because the path contains a space, Windows cmd failed to parse it correctly and threw:
 
@@ -71,13 +71,13 @@ try running Node.js with --use-system-ca
   code: 'DEPTH_ZERO_SELF_SIGNED_CERT'
 ```
 
-Several flags were attempted to work around this — `--allow-http`, `--ignore-ssl` — but none resolved it at the `mcp-remote` level. The fix that ultimately worked was setting the `NODE_TLS_REJECT_UNAUTHORIZED=0` environment variable, which disables TLS verification entirely. While this produces a security warning, it is acceptable for a localhost-only connection.
+Several flags were attempted to work around this , `--allow-http`, `--ignore-ssl` , but none resolved it at the `mcp-remote` level. The fix that ultimately worked was setting the `NODE_TLS_REJECT_UNAUTHORIZED=0` environment variable, which disables TLS verification entirely. While this produces a security warning, it is acceptable for a localhost-only connection.
 
 ---
 
-### Issue 3: HTTP vs HTTPS — "other side closed" (`UND_ERR_SOCKET`)
+### Issue 3: HTTP vs HTTPS , "other side closed" (`UND_ERR_SOCKET`)
 
-Switching to plain `http://` instead of `https://` caused a different error — the connection was immediately dropped:
+Switching to plain `http://` instead of `https://` caused a different error , the connection was immediately dropped:
 
 ```
 SocketError: other side closed
@@ -98,7 +98,7 @@ StreamableHTTPError: Streamable HTTP error: Error POSTing to endpoint:
   code: 404
 ```
 
-This occurred because the SSE (Server-Sent Events) stream that `mcp-remote` uses to maintain the session would disconnect — often due to Obsidian briefly going idle or the REST API plugin resetting its session state. When Claude then tried to make a follow-up tool call, the session ID was no longer valid.
+This occurred because the SSE (Server-Sent Events) stream that `mcp-remote` uses to maintain the session would disconnect , often due to Obsidian briefly going idle or the REST API plugin resetting its session state. When Claude then tried to make a follow-up tool call, the session ID was no longer valid.
 
 The SSE disconnection error looked like:
 ```
@@ -109,7 +109,7 @@ Error: SSE stream disconnected: TypeError: terminated
 
 ---
 
-### Issue 5: Race Condition on Startup — Duplicate Process Assertion Failure
+### Issue 5: Race Condition on Startup , Duplicate Process Assertion Failure
 
 During one restart cycle, two `mcp-remote` processes were spawned simultaneously. One would connect and immediately shut down, triggering a low-level Windows assertion failure:
 
@@ -126,10 +126,10 @@ This was a Windows-specific Node.js race condition caused by rapid MCP server re
 
 Once the correct configuration was in place, the full workflow became:
 
-1. **Claude reads vault files** — searching, reading markdown content, navigating the file tree
-2. **Claude writes and edits files** — rewriting project docs, renaming files, updating frontmatter
-3. **Claude pushes to GitHub** — via Desktop Commander MCP running terminal commands in the quartz repo
-4. **Persistent documentation** — changes made through Claude survive session restarts and are tracked in git
+1. **Claude reads vault files** , searching, reading markdown content, navigating the file tree
+2. **Claude writes and edits files** , rewriting project docs, renaming files, updating frontmatter
+3. **Claude pushes to GitHub** , via Desktop Commander MCP running terminal commands in the quartz repo
+4. **Persistent documentation** , changes made through Claude survive session restarts and are tracked in git
 
 This setup effectively makes Claude a hands-free documentation assistant for the entire engineering notebook. Voice or text instructions in Claude Desktop translate directly into vault edits and GitHub commits.
 
