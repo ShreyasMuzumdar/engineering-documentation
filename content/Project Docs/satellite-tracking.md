@@ -119,3 +119,9 @@ Despite mechanical failure, the educational impact was proven. Children noted th
 2. [UN Department of Economic and Social Affairs](https://sdgs.un.org/goals/goal9)
 3. [Sufyan et al., "From 5G to beyond 5G"](https://doi.org/10.3390/electronics12102200)
 4. [Westberg et al., "5G Infrastructure RF Solutions"](https://doi.org/10.1109/mmm.2019.2941631)
+
+## Related Projects
+
+- [[Project Docs/hermes-assistant|Hermes Assistant]], the AI system that now edits this vault autonomously
+- [[Project Docs/Home Automation System|Home Automation System]], same Raspberry Pi and self-hosting infrastructure mindset
+- [[Project Docs/3d-printing-control|3D Printing Control]], 3D printed satellite models used in the exhibit

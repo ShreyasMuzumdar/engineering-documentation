@@ -150,3 +150,8 @@ This setup effectively makes Claude a hands-free documentation assistant for the
 - Auth: Bearer token from Obsidian REST API plugin settings
 - TLS: Self-signed cert accepted via `NODE_TLS_REJECT_UNAUTHORIZED=0`
 - npx path: `C:\Users\Shreyas-PC\AppData\Roaming\npm\npx.cmd`
+
+## Related Projects
+
+- [[Project Docs/hermes-assistant|Hermes Assistant]], the AI system that now edits this vault through MCP
+- [[Project Docs/Home Automation System|Home Automation System]], same Raspberry Pi and self-hosting approach
