@@ -23,8 +23,6 @@ The stock Ender 3 V2 only has a single Z-axis motor on one side of the gantry. T
 #### 3. Direct Drive Extruder Upgrade
 I also added a direct drive extruder conversion. While not strictly necessary, moving the extruder directly above the hotend reduced the distance filament had to travel, which improved retraction performance and reduced variability in extrusion, particularly useful for flexible or stringy filaments.
 
-The 3D printing skills developed here also fed back into robotics. Custom parts for the [[Robot Docs/robot-docs|competition robots]] were prototyped and printed on this machine before being machined in final materials.
-
 ## 💻 Software and Remote Control
 
 ### OctoPrint on Raspberry Pi
@@ -59,6 +57,5 @@ Deliberately starting with a budget printer that required troubleshooting and up
 - Remote system monitoring
 
 **Related Projects:**
-- [[Project Docs/Home Automation System|Home Automation System]] , same Raspberry Pi self-hosting approach
-- [[Project Docs/hermes-assistant|Hermes Assistant]] , Cloudflare Tunnel remote access built on same concept
-- [[Robot Docs/robot-docs|Robot Docs]] , 3D printed parts used across all competition robots
+- [[Project Docs/Home Automation System|Home Automation System]], same Raspberry Pi self-hosting approach
+- [[Project Docs/hermes-assistant|Hermes Assistant]], Cloudflare Tunnel remote access built on same concept
