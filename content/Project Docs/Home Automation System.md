@@ -1,6 +1,9 @@
 ---
-cssclasses:
-  - engineering-portfolio
+cssclasses: |-
+  ---
+  cssclasses:
+    - engineering-portfolio
+  ---
 created: 2022-01-01
 updated: 2026-05-30
 status: active
