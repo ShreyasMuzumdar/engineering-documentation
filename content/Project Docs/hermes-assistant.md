@@ -18,7 +18,8 @@ Instead of building a web interface or setting up Cloudflare tunneling, I connec
 For persistent memory across conversations, I use **Honcho** as a SQL database backend. Honcho stores a history of past interactions on the laptop's SSD, and a local **Ollama** instance is used specifically to process and query that history, allowing Hermes to look back at what we've discussed previously and maintain context across sessions. Ollama here is scoped entirely to the memory layer, not general inference.
 
 ### AI Inference
-The main reasoning layer uses an LLM appropriate for the task, with the local Ollama instance reserved specifically for Honcho memory lookups rather than general chat.
+
+The main reasoning layer connects to **Google's Gemini API**, using the Gemini model for all general inference and chat responses. Although the infrastructure runs locally on the Dell XPS, the AI model itself runs on Google's cloud via the API. The Gemini free tier covers everything the assistant needs, so there is no cost to run the AI layer. The local Ollama instance is reserved specifically for Honcho memory lookups and does not handle general inference.
 
 ## 📧 Newsletter Pipeline
 
