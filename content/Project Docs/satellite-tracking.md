@@ -20,7 +20,7 @@ A well-designed travel campaign exhibit must address this specific educational g
 **Overarching Goal:**
 To genuinely empower youth by demonstrating that they can understand and build complex systems that impact the world.
 
-![Final Assembly](/static/finalassembly.jpeg)
+![Final Assembly](/static/satellite-tracking/finalassembly.jpeg)
 *Fig. 1. The actual final assembly of the Science in Orbit interactive exhibit.*
 
 ---
@@ -35,7 +35,7 @@ Satellites improve human lives and manage global infrastructure. While commercia
 ### 🌐 The Digital Divide
 While 51% of the global population has access to 5G, coverage is uneven: 84% in high-income areas vs. only 4% in low-income areas. This "digital divide" is caused by the prohibitive cost of maintaining fiber optic cables in rural or underserved areas.
 
-![Global Submarine Cable Network](/static/map.jpeg)
+![Global Submarine Cable Network](/static/satellite-tracking/map.jpeg)
 *Fig. 2. Global Submarine Cable Network showing the physical infrastructure of the internet.*
 
 ### 🚀 The Solution: LEO Satellites
@@ -51,10 +51,10 @@ The "Science in Orbit" exhibit followed a structured, iterative cycle:
 2. **Solution Generation:** Used rank-order charts and Kepner-Tregoe Decision Analysis (KTDA).
 3. **Implementation:** Progressed through cardboard prototyping $\rightarrow$ CAD $\rightarrow$ 60% PoC $\rightarrow$ 90% prototype $\rightarrow$ Final prototype.
 
-![Rank Order Table](/static/rankordertable.jpeg)
+![Rank Order Table](/static/satellite-tracking/rankordertable.jpeg)
 *Rank Order Table: Phase 1 Selection*
 
-![KTDA Table](/static/ktdatable.jpeg)
+![KTDA Table](/static/satellite-tracking/ktdatable.jpeg)
 *KTDA Table: Phase 2 Selection*
 
 ### 💻 Technical Development
@@ -65,7 +65,7 @@ I (Shreyas) handled the CAD modeling, coding, and circuitry.
 - **Logic:** Ultrasonic sensor provides readings to an Arduino.
 - **Output:** Arduino controls servos to track physical satellites; a score is generated based on accuracy.
 
-![User Interaction Flow Chart](/static/interactionflowchart.jpeg)
+![User Interaction Flow Chart](/static/satellite-tracking/interactionflowchart.jpeg)
 *Fig. 3. Detailed user interaction flow showing the logic of the satellite tracking game.*
 
 ### ⚡ Electronics & Challenges
@@ -77,13 +77,13 @@ The circuitry was complex and presented several hurdles:
 - **Circuit 1 (Main):** Ultrasonic sensor, pan/tilt servos, LCD screen, joystick, and LED strip.
 - **Circuit 2 (Motor):** TT gear motor for the rotating ring, utilizing a separate motor driver.
 
-![Initial Wiring Mess](/static/initial-wiring-mess.jpeg)
+![Initial Wiring Mess](/static/satellite-tracking/initial-wiring-mess.jpeg)
 *Issue 1: The initial wiring mess.*
 
-![Wiring 1](/static/wiring1.jpeg)
+![Wiring 1](/static/satellite-tracking/wiring1.jpeg)
 *Final Version: Main Circuit.*
 
-![Wiring 2](/static/wiring2.jpeg)
+![Wiring 2](/static/satellite-tracking/wiring2.jpeg)
 *Final Version: Motor Circuit.*
 
 ---
@@ -104,7 +104,7 @@ On the day of the final exhibition, a servo failed, rendering the scoring system
 **Resilience in Action:**
 The team pivoted to a **facilitated interaction model**, using the physical ring and informational poster board to manually explain the concepts to the children.
 
-![Exhibition Feedback](/static/feedback1.jpeg)
+![Exhibition Feedback](/static/satellite-tracking/feedback1.jpeg)
 *Fig. 4. Educational poster and feedback wall indicating strong user engagement.*
 
 ### 💭 Reflection
