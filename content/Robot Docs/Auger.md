@@ -1,6 +1,6 @@
 # 🔩 Auger Subsystem
 
-**Team:** Watney MKVII | **Competition:** URC / SERC | **Category:** Rover Subsystem
+**Team:** Watney MKVII | **Competition:** URC / CIRC | **Category:** Rover Subsystem
 
 ## Overview
 

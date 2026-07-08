@@ -26,10 +26,10 @@ configuration:
         gray: "#3db87f"
         darkgray: "#0d3325"
         dark: "#071a30"
-        secondary: "#6dffc2"
-        tertiary: "#3db87f"
-        highlight: rgba(109, 255, 194, 0.15)
-        textHighlight: "#6dffc288"
+        secondary: "#0a5c3a"
+        tertiary: "#0f6640"
+        highlight: rgba(10, 92, 58, 0.15)
+        textHighlight: "#0a5c3a88"
       darkMode:
         light: "#071a30"
         lightgray: "#0d3325"
