@@ -23,8 +23,9 @@ The one major drivetrain change on this iteration of the rover was a switch to a
 *(To add: explanation of what happened at CIRC.)*
 
 ## Subsystems
-
-*(Link subsystem docs here, e.g. Auger, once they exist.)*
+| Subsystem | Competition | Description |
+| :--- | :--- | :--- |
+| [[Robot Docs/Auger\|Auger]] | URC / CIRC | Sand collection subsystem for life detection analysis |
 
 ## Related Robots
 - [[Robot Docs/robot-docs|Robot Docs]]
