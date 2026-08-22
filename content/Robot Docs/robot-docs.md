@@ -14,9 +14,6 @@ Over four seasons with Pioneer Robotics (FTC Team 12589), I went from a first-ye
 | [[Robot Docs/MantisBot\|MantisBot]] | Into the Deep (2024) | Connect Award | Differential claw, integrated climb, Agile development |
 
 ## 🪐 Rover — Watney MKVII
-
 At Northeastern University, I joined the team competing in the University Rover Challenge (URC) and the Canadian International Rover Challenge (CIRC). These competitions push teams to build Mars-analog rovers capable of autonomous navigation, sample collection, and life detection tasks.
 
-| Subsystem | Competition | Description |
-| :--- | :--- | :--- |
-| [[Robot Docs/Auger\|Auger]] | URC / CIRC | Sand collection subsystem for life detection analysis |
+[[Robot Docs/Watney MKVII|Watney MKVII]] — full rover overview, including the swerve drive change and CIRC results.
