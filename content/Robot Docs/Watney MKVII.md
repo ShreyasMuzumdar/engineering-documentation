@@ -94,43 +94,53 @@ That trade cost us 28 points outright — the full camera-avoidance points and t
 | Open Vault | 37 | 31 | Full points except the speed bonus for entering the code fast enough |
 | **Total** | **100** | **66** | |
 
-<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:640px; height:auto;">
-  <rect x="180" y="10" width="14" height="14" fill="#c9c9c9"/>
-  <text x="200" y="21" font-size="12" fill="#333">Max Points</text>
-  <rect x="320" y="10" width="14" height="14" fill="#2f6690"/>
-  <text x="340" y="21" font-size="12" fill="#333">Points Earned</text>
+Wire-cutting vs. the vault sequence, side by side — this is the actual trade we made:
 
-  <line x1="30" y1="310" x2="610" y2="310" stroke="#999" stroke-width="1"/>
+<svg viewBox="0 0 500 330" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
+  <rect x="150" y="10" width="14" height="14" fill="#c9c9c9"/>
+  <text x="170" y="21" font-size="12" fill="#333">Max Points</text>
+  <rect x="290" y="10" width="14" height="14" fill="#2f6690"/>
+  <text x="310" y="21" font-size="12" fill="#333">Points Earned</text>
 
-  <rect x="60" y="142" width="40" height="168" fill="#c9c9c9"/>
-  <text x="80" y="135" font-size="11" text-anchor="middle" fill="#333">24</text>
-  <rect x="110" y="310" width="40" height="56" fill="#2f6690"/>
-  <text x="130" y="247" font-size="11" text-anchor="middle" fill="#333">8</text>
-  <text x="105" y="330" font-size="11" text-anchor="middle" fill="#333">Approach</text>
-  <text x="105" y="343" font-size="11" text-anchor="middle" fill="#333">Camera Controls</text>
+  <line x1="30" y1="260" x2="470" y2="260" stroke="#999" stroke-width="1"/>
 
-  <rect x="210" y="226" width="40" height="84" fill="#c9c9c9"/>
-  <text x="230" y="219" font-size="11" text-anchor="middle" fill="#333">12</text>
-  <text x="280" y="303" font-size="11" text-anchor="middle" fill="#333">0</text>
-  <text x="255" y="330" font-size="11" text-anchor="middle" fill="#333">Disable</text>
-  <text x="255" y="343" font-size="11" text-anchor="middle" fill="#333">Cameras</text>
+  <rect x="80" y="194" width="60" height="66" fill="#c9c9c9"/>
+  <text x="110" y="187" font-size="12" text-anchor="middle" fill="#333">12</text>
+  <text x="190" y="253" font-size="12" text-anchor="middle" fill="#333">0</text>
+  <text x="150" y="280" font-size="12" text-anchor="middle" fill="#333">Disable Cameras</text>
+  <text x="150" y="294" font-size="11" text-anchor="middle" fill="#666">(cut the wire)</text>
 
-  <rect x="360" y="121" width="40" height="189" fill="#c9c9c9"/>
-  <text x="380" y="114" font-size="11" text-anchor="middle" fill="#333">27</text>
-  <rect x="410" y="121" width="40" height="189" fill="#2f6690"/>
-  <text x="430" y="114" font-size="11" text-anchor="middle" fill="#333">27</text>
-  <text x="405" y="330" font-size="11" text-anchor="middle" fill="#333">Identify</text>
-  <text x="405" y="343" font-size="11" text-anchor="middle" fill="#333">Vault Code</text>
-
-  <rect x="510" y="51" width="40" height="259" fill="#c9c9c9"/>
-  <text x="530" y="44" font-size="11" text-anchor="middle" fill="#333">37</text>
-  <rect x="560" y="93" width="40" height="217" fill="#2f6690"/>
-  <text x="580" y="86" font-size="11" text-anchor="middle" fill="#333">31</text>
-  <text x="555" y="330" font-size="11" text-anchor="middle" fill="#333">Open</text>
-  <text x="555" y="343" font-size="11" text-anchor="middle" fill="#333">Vault</text>
+  <rect x="280" y="56" width="60" height="204" fill="#c9c9c9"/>
+  <text x="310" y="49" font-size="12" text-anchor="middle" fill="#333">37</text>
+  <rect x="360" y="89" width="60" height="171" fill="#2f6690"/>
+  <text x="390" y="82" font-size="12" text-anchor="middle" fill="#333">31</text>
+  <text x="350" y="280" font-size="12" text-anchor="middle" fill="#333">Open Vault</text>
+  <text x="350" y="294" font-size="11" text-anchor="middle" fill="#666">(vault sequence)</text>
 </svg>
 
-*The two skipped stages (Disable Cameras entirely, and most of Approach Camera Controls) account for 28 of the 34 points we left on the table — the rest was the vault-code speed bonus.*
+*Cutting the wire was worth up to 12 points; we scored 0. The vault sequence was worth up to 37 and we scored 31 — nearly the entire wire-disable stage's max value, just from the one decision to skip it and focus there instead.*
+
+Here's how the 66 points we did earn broke down by stage:
+
+<svg viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:320px; height:auto;">
+  <path d="M150,150 L150,30 A120,120 0 0,1 233,63 Z" fill="#4c9a8c"/>
+  <path d="M150,150 L233,63 A120,120 0 0,1 127,268 Z" fill="#2f6690"/>
+  <path d="M150,150 L127,268 A120,120 0 0,1 150,30 Z" fill="#e08a2c"/>
+  <text x="178" y="80" font-size="13" fill="#fff" text-anchor="middle">12%</text>
+  <text x="217" y="184" font-size="13" fill="#fff" text-anchor="middle">41%</text>
+  <text x="75" y="143" font-size="13" fill="#fff" text-anchor="middle">47%</text>
+
+  <rect x="10" y="300" width="14" height="14" fill="#4c9a8c"/>
+  <text x="28" y="311" font-size="12" fill="#333">Approach Camera Controls — 8 pts (12%)</text>
+  <rect x="10" y="322" width="14" height="14" fill="#c9c9c9"/>
+  <text x="28" y="333" font-size="12" fill="#333">Disable Cameras — 0 pts (0%)</text>
+  <rect x="10" y="344" width="14" height="14" fill="#2f6690"/>
+  <text x="28" y="355" font-size="12" fill="#333">Identify Vault Code — 27 pts (41%)</text>
+  <rect x="10" y="366" width="14" height="14" fill="#e08a2c"/>
+  <text x="28" y="377" font-size="12" fill="#333">Open Vault — 31 pts (47%)</text>
+</svg>
+
+*Nearly 90% of our points came from the two stages we actually attempted — the vault sequence alone accounted for almost half of everything we scored.*
 
 <details>
 <summary>Full official rubric — Heist Mission</summary>
@@ -180,56 +190,38 @@ Near the end of our run, two pancake orders came in and our rover didn't have th
 | 8 | Pancakes | 1.04 |
 | **Total** | | **62.4** |
 
-<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:680px; height:auto;">
-  <rect x="400" y="10" width="14" height="14" fill="#2f6690"/>
-  <text x="420" y="21" font-size="12" fill="#333">Completed orders</text>
-  <rect x="560" y="10" width="14" height="14" fill="#e08a2c"/>
-  <text x="580" y="21" font-size="11" fill="#333">Touch-only (pancakes)</text>
+Share of the total 62.4 points earned, by order (same-item orders share a color — you can see how much both Subs carried the run, and how little the two pancake attempts contributed):
 
-  <line x1="30" y1="290" x2="650" y2="290" stroke="#999" stroke-width="1"/>
+<svg viewBox="0 0 340 400" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:340px; height:auto;">
+  <path d="M150,150 L150,30 A120,120 0 0,1 260,101 Z" fill="#4c9a8c"/>
+  <path d="M150,150 L260,101 A120,120 0 0,1 264,113 Z" fill="#e08a2c"/>
+  <path d="M150,150 L264,113 A120,120 0 0,1 150,270 Z" fill="#2f6690"/>
+  <path d="M150,150 L150,270 A120,120 0 0,1 125,267 Z" fill="#8a6bbf"/>
+  <path d="M150,150 L125,267 A120,120 0 0,1 36,187 Z" fill="#4c9a8c"/>
+  <path d="M150,150 L36,187 A120,120 0 0,1 31,163 Z" fill="#c94f4f"/>
+  <path d="M150,150 L31,163 A120,120 0 0,1 137,31 Z" fill="#2f6690"/>
+  <path d="M150,150 L137,31 A120,120 0 0,1 150,30 Z" fill="#e08a2c"/>
 
-  <rect x="50" y="147" width="50" height="143" fill="#2f6690"/>
-  <text x="75" y="140" font-size="11" text-anchor="middle" fill="#333">11.4</text>
-  <text x="75" y="305" font-size="11" text-anchor="middle" fill="#333">1</text>
-  <text x="75" y="318" font-size="10" text-anchor="middle" fill="#666">Apple</text>
+  <rect x="10" y="294" width="14" height="14" fill="#4c9a8c"/>
+  <text x="28" y="305" font-size="11" fill="#333">1: Apple — 11.44 (18%)</text>
+  <rect x="10" y="316" width="14" height="14" fill="#e08a2c"/>
+  <text x="28" y="327" font-size="11" fill="#333">2: Pancakes — 1.04 (2%)</text>
+  <rect x="10" y="338" width="14" height="14" fill="#2f6690"/>
+  <text x="28" y="349" font-size="11" fill="#333">3: Sub — 18.72 (30%)</text>
+  <rect x="10" y="360" width="14" height="14" fill="#8a6bbf"/>
+  <text x="28" y="371" font-size="11" fill="#333">4: Spaghetti — 2.08 (3%)</text>
 
-  <rect x="122" y="277" width="50" height="13" fill="#e08a2c"/>
-  <text x="147" y="270" font-size="11" text-anchor="middle" fill="#333">1.0</text>
-  <text x="147" y="305" font-size="11" text-anchor="middle" fill="#333">2</text>
-  <text x="147" y="318" font-size="10" text-anchor="middle" fill="#666">Pancakes</text>
-
-  <rect x="194" y="56" width="50" height="234" fill="#2f6690"/>
-  <text x="219" y="49" font-size="11" text-anchor="middle" fill="#333">18.7</text>
-  <text x="219" y="305" font-size="11" text-anchor="middle" fill="#333">3</text>
-  <text x="219" y="318" font-size="10" text-anchor="middle" fill="#666">Sub</text>
-
-  <rect x="266" y="264" width="50" height="26" fill="#2f6690"/>
-  <text x="291" y="257" font-size="11" text-anchor="middle" fill="#333">2.1</text>
-  <text x="291" y="305" font-size="11" text-anchor="middle" fill="#333">4</text>
-  <text x="291" y="318" font-size="10" text-anchor="middle" fill="#666">Spaghetti</text>
-
-  <rect x="338" y="160" width="50" height="130" fill="#2f6690"/>
-  <text x="363" y="153" font-size="11" text-anchor="middle" fill="#333">10.4</text>
-  <text x="363" y="305" font-size="11" text-anchor="middle" fill="#333">5</text>
-  <text x="363" y="318" font-size="10" text-anchor="middle" fill="#666">Apple</text>
-
-  <rect x="410" y="264" width="50" height="26" fill="#2f6690"/>
-  <text x="435" y="257" font-size="11" text-anchor="middle" fill="#333">2.1</text>
-  <text x="435" y="305" font-size="11" text-anchor="middle" fill="#333">6</text>
-  <text x="435" y="318" font-size="10" text-anchor="middle" fill="#666">Pizza</text>
-
-  <rect x="482" y="95" width="50" height="195" fill="#2f6690"/>
-  <text x="507" y="88" font-size="11" text-anchor="middle" fill="#333">15.6</text>
-  <text x="507" y="305" font-size="11" text-anchor="middle" fill="#333">7</text>
-  <text x="507" y="318" font-size="10" text-anchor="middle" fill="#666">Sub</text>
-
-  <rect x="554" y="277" width="50" height="13" fill="#e08a2c"/>
-  <text x="579" y="270" font-size="11" text-anchor="middle" fill="#333">1.0</text>
-  <text x="579" y="305" font-size="11" text-anchor="middle" fill="#333">8</text>
-  <text x="579" y="318" font-size="10" text-anchor="middle" fill="#666">Pancakes</text>
+  <rect x="175" y="294" width="14" height="14" fill="#4c9a8c"/>
+  <text x="193" y="305" font-size="11" fill="#333">5: Apple — 10.40 (17%)</text>
+  <rect x="175" y="316" width="14" height="14" fill="#c94f4f"/>
+  <text x="193" y="327" font-size="11" fill="#333">6: Pizza — 2.08 (3%)</text>
+  <rect x="175" y="338" width="14" height="14" fill="#2f6690"/>
+  <text x="193" y="349" font-size="11" fill="#333">7: Sub — 15.60 (25%)</text>
+  <rect x="175" y="360" width="14" height="14" fill="#e08a2c"/>
+  <text x="193" y="371" font-size="11" fill="#333">8: Pancakes — 1.04 (2%)</text>
 </svg>
 
-*Each pancake order (orange) only ever scored the single touch point — 1.04 points each — but that was enough to tip the award.*
+*The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4% — but as it turned out, that 4% was the margin between winning the award and not.*
 
 <details>
 <summary>Full official rubric — RoverCooked</summary>
