@@ -45,7 +45,7 @@ Two candidate designs were considered for the collection mechanism:
 - It also demonstrated higher accuracy in sample placement/collection during testing.
 
 Test footage of the ice auger digging into a sand sample:
-<video controls width="600" src="/static/images/robot-photos/auger/augervideo2.mp4"></video>
+<video controls style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo2.mp4"></video>
 
 ##### Why the ice auger was ultimately not used
 - Because it was originally designed for ice (not sand), its flighting/sizing was too small in cross-section, which limited the *volume* of sand it could carry per pass.
@@ -55,7 +55,7 @@ Test footage of the ice auger digging into a sand sample:
 The team reverted to the straight tube design, which — despite the depth/accuracy tradeoffs — reliably collected an adequate volume of sand once implemented.
 
 Straight tube (final design) in testing:
-<video controls width="600" src="/static/images/robot-photos/auger/augervideo1.mp4"></video>
+<video controls style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo1.mp4"></video>
 
 > **Design note:** the transition between the two concepts was intentionally kept low-friction — the initial mount was designed so switching from the ice auger back to the tube design would not require a major rebuild.
 
