@@ -1,4 +1,4 @@
-﻿# ðŸª Watney MKVII
+# 🪐 Watney MKVII
 
 **Team:** Northeastern University Rover Team | **Competitions:** URC / CIRC | **Category:** Mars-Analog Rover
 
@@ -136,32 +136,33 @@ Here's how the 66 points we did earn broke down by stage:
 Nearly 90% of our points came from the two stages we actually attempted. The vault sequence alone accounted for almost half of everything we scored. Disable Cameras isn't shown since it earned 0%.
 
 <details>
-<summary>Full official rubric â€” Heist Mission</summary>
+<summary>Full official rubric for Heist Mission</summary>
 
 Rover mass: 49.9kg, no mass bonus (100%). Repair and modification penalties were 0 throughout, so Points Earned equals Modified Points here.
 
-| Stage | Action | Max | Earned |
-|---|---|---|---|
-| Approach Camera Controls | Avoid tripwires | 4 | 0 |
-| Approach Camera Controls | Avoid camera | 4 | 0 |
-| Approach Camera Controls | Avoid shining light on area viewed by camera | 8 | 0 |
-| Approach Camera Controls | Reach camera controls | 8 | 8 |
-| Disable Cameras | Identify correct wire to cut | 3 | 0 |
-| Disable Cameras | Cut a wire | 6 | 0 |
-| Disable Cameras | Cut the correct wire | 3 | 0 |
-| Identify Vault Code | Approach security console | 5 | 5 |
-| Identify Vault Code | Attempt to decode security console password | 6 | 6 |
-| Identify Vault Code | Correctly decode security console password | 4 | 4 |
-| Identify Vault Code | Physically interface with security console | 6 | 6 |
-| Identify Vault Code | Correctly find vault code | 6 | 6 |
-| Open Vault | Approach Morse key | 4 | 4 |
-| Open Vault | Interact with Morse key | 6 | 6 |
-| Open Vault | Enter the vault code | 6 | 6 |
-| Open Vault | Enter the vault code fast enough | 6 | 0 |
-| Open Vault | Open the vault door | 5 | 5 |
-| Open Vault | Remove the artifact from the vault | 5 | 5 |
-| Open Vault | Return to the extraction point with the artifact | 5 | 5 |
-| **Total** | | **100** | **66** |
+<table>
+<tr><th>Stage</th><th>Action</th><th>Max</th><th>Earned</th></tr>
+<tr><td>Approach Camera Controls</td><td>Avoid tripwires</td><td>4</td><td>0</td></tr>
+<tr><td>Approach Camera Controls</td><td>Avoid camera</td><td>4</td><td>0</td></tr>
+<tr><td>Approach Camera Controls</td><td>Avoid shining light on area viewed by camera</td><td>8</td><td>0</td></tr>
+<tr><td>Approach Camera Controls</td><td>Reach camera controls</td><td>8</td><td>8</td></tr>
+<tr><td>Disable Cameras</td><td>Identify correct wire to cut</td><td>3</td><td>0</td></tr>
+<tr><td>Disable Cameras</td><td>Cut a wire</td><td>6</td><td>0</td></tr>
+<tr><td>Disable Cameras</td><td>Cut the correct wire</td><td>3</td><td>0</td></tr>
+<tr><td>Identify Vault Code</td><td>Approach security console</td><td>5</td><td>5</td></tr>
+<tr><td>Identify Vault Code</td><td>Attempt to decode security console password</td><td>6</td><td>6</td></tr>
+<tr><td>Identify Vault Code</td><td>Correctly decode security console password</td><td>4</td><td>4</td></tr>
+<tr><td>Identify Vault Code</td><td>Physically interface with security console</td><td>6</td><td>6</td></tr>
+<tr><td>Identify Vault Code</td><td>Correctly find vault code</td><td>6</td><td>6</td></tr>
+<tr><td>Open Vault</td><td>Approach Morse key</td><td>4</td><td>4</td></tr>
+<tr><td>Open Vault</td><td>Interact with Morse key</td><td>6</td><td>6</td></tr>
+<tr><td>Open Vault</td><td>Enter the vault code</td><td>6</td><td>6</td></tr>
+<tr><td>Open Vault</td><td>Enter the vault code fast enough</td><td>6</td><td>0</td></tr>
+<tr><td>Open Vault</td><td>Open the vault door</td><td>5</td><td>5</td></tr>
+<tr><td>Open Vault</td><td>Remove the artifact from the vault</td><td>5</td><td>5</td></tr>
+<tr><td>Open Vault</td><td>Return to the extraction point with the artifact</td><td>5</td><td>5</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>100</strong></td><td><strong>66</strong></td></tr>
+</table>
 
 </details>
 
@@ -228,70 +229,71 @@ Share of the total 62.4 points earned, by order. Same-item orders share a color:
 The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4%, but as it turned out, that 4% was the margin between winning the award and not.
 
 <details>
-<summary>Full official rubric â€” RoverCooked</summary>
+<summary>Full official rubric for RoverCooked</summary>
 
 Rover mass: 46kg, 104% mass bonus (why "1 point earned" shows up as 1.04 modified). Repair and modification penalties were 0 throughout.
 
-| Order | Action | Max | Earned | Modified |
-|---|---|---|---|---|
-| 1: Apple | Rover leaves start line | 1 | 1 | 1.04 |
-| 1: Apple | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 1: Apple | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| 1: Apple | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| 1: Apple | Delivered late | -2 | 0 | 0 |
-| 1: Apple | Delivered early | 1 | 1 | 1.04 |
-| 2: Pancakes | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 2: Pancakes | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| 2: Pancakes | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| 2: Pancakes | Delivered late | -2 | 0 | 0 |
-| 2: Pancakes | Delivered early | 1 | 0 | 0 |
-| 3: Sub | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 3: Sub | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| 3: Sub | Ingredient 2 touched | 1 | 1 | 1.04 |
-| 3: Sub | Ingredient 2 prepared correctly | 3 | 3 | 3.12 |
-| 3: Sub | Ingredient 3 touched | 1 | 1 | 1.04 |
-| 3: Sub | Ingredient 3 prepared correctly | 3 | 3 | 3.12 |
-| 3: Sub | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| 3: Sub | Delivered late | -2 | 0 | 0 |
-| 3: Sub | Delivered early | 1 | 1 | 1.04 |
-| 4: Spaghetti | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 4: Spaghetti | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| 4: Spaghetti | Ingredient 2 touched | 1 | 1 | 1.04 |
-| 4: Spaghetti | Ingredient 2 prepared correctly | 3 | 0 | 0 |
-| 4: Spaghetti | Ingredient 3 touched | 1 | 0 | 0 |
-| 4: Spaghetti | Ingredient 3 prepared correctly | 3 | 0 | 0 |
-| 4: Spaghetti | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| 4: Spaghetti | Delivered late | -2 | 0 | 0 |
-| 4: Spaghetti | Delivered early | 1 | 0 | 0 |
-| 5: Apple | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 5: Apple | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| 5: Apple | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| 5: Apple | Delivered late | -2 | 0 | 0 |
-| 5: Apple | Delivered early | 1 | 1 | 1.04 |
-| 6: Pizza | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 6: Pizza | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| 6: Pizza | Ingredient 2 touched | 1 | 1 | 1.04 |
-| 6: Pizza | Ingredient 2 prepared correctly | 3 | 0 | 0 |
-| 6: Pizza | Ingredient 3 touched | 1 | 0 | 0 |
-| 6: Pizza | Ingredient 3 prepared correctly | 3 | 0 | 0 |
-| 6: Pizza | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| 6: Pizza | Delivered late | -2 | 0 | 0 |
-| 6: Pizza | Delivered early | 1 | 0 | 0 |
-| 7: Sub | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 7: Sub | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| 7: Sub | Ingredient 2 touched | 1 | 1 | 1.04 |
-| 7: Sub | Ingredient 2 prepared correctly | 3 | 3 | 3.12 |
-| 7: Sub | Ingredient 3 touched | 1 | 1 | 1.04 |
-| 7: Sub | Ingredient 3 prepared correctly | 3 | 3 | 3.12 |
-| 7: Sub | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| 7: Sub | Delivered late | -2 | -2 | -2.08 |
-| 7: Sub | Delivered early | 1 | 0 | 0 |
-| 8: Pancakes | Ingredient 1 touched | 1 | 1 | 1.04 |
-| 8: Pancakes | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| 8: Pancakes | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| 8: Pancakes | Delivered late | -2 | 0 | 0 |
-| 8: Pancakes | Delivered early | 1 | 0 | 0 |
-| **Total** | | **97** | **60** | **62.4** |
+<table>
+<tr><th>Order</th><th>Action</th><th>Max</th><th>Earned</th><th>Modified</th></tr>
+<tr><td>1: Apple</td><td>Rover leaves start line</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>1: Apple</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>1: Apple</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>1: Apple</td><td>Delivered without dropping any ingredient</td><td>5</td><td>5</td><td>5.2</td></tr>
+<tr><td>1: Apple</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>1: Apple</td><td>Delivered early</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>2: Pancakes</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>2: Pancakes</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>2: Pancakes</td><td>Delivered without dropping any ingredient</td><td>5</td><td>0</td><td>0</td></tr>
+<tr><td>2: Pancakes</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>2: Pancakes</td><td>Delivered early</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>3: Sub</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>3: Sub</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>3: Sub</td><td>Ingredient 2 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>3: Sub</td><td>Ingredient 2 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>3: Sub</td><td>Ingredient 3 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>3: Sub</td><td>Ingredient 3 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>3: Sub</td><td>Delivered without dropping any ingredient</td><td>5</td><td>5</td><td>5.2</td></tr>
+<tr><td>3: Sub</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>3: Sub</td><td>Delivered early</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>4: Spaghetti</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>4: Spaghetti</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>4: Spaghetti</td><td>Ingredient 2 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>4: Spaghetti</td><td>Ingredient 2 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>4: Spaghetti</td><td>Ingredient 3 touched</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>4: Spaghetti</td><td>Ingredient 3 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>4: Spaghetti</td><td>Delivered without dropping any ingredient</td><td>5</td><td>0</td><td>0</td></tr>
+<tr><td>4: Spaghetti</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>4: Spaghetti</td><td>Delivered early</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>5: Apple</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>5: Apple</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>5: Apple</td><td>Delivered without dropping any ingredient</td><td>5</td><td>5</td><td>5.2</td></tr>
+<tr><td>5: Apple</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>5: Apple</td><td>Delivered early</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>6: Pizza</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>6: Pizza</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>6: Pizza</td><td>Ingredient 2 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>6: Pizza</td><td>Ingredient 2 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>6: Pizza</td><td>Ingredient 3 touched</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>6: Pizza</td><td>Ingredient 3 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>6: Pizza</td><td>Delivered without dropping any ingredient</td><td>5</td><td>0</td><td>0</td></tr>
+<tr><td>6: Pizza</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>6: Pizza</td><td>Delivered early</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>7: Sub</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>7: Sub</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>7: Sub</td><td>Ingredient 2 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>7: Sub</td><td>Ingredient 2 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>7: Sub</td><td>Ingredient 3 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>7: Sub</td><td>Ingredient 3 prepared correctly</td><td>3</td><td>3</td><td>3.12</td></tr>
+<tr><td>7: Sub</td><td>Delivered without dropping any ingredient</td><td>5</td><td>5</td><td>5.2</td></tr>
+<tr><td>7: Sub</td><td>Delivered late</td><td>-2</td><td>-2</td><td>-2.08</td></tr>
+<tr><td>7: Sub</td><td>Delivered early</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>8: Pancakes</td><td>Ingredient 1 touched</td><td>1</td><td>1</td><td>1.04</td></tr>
+<tr><td>8: Pancakes</td><td>Ingredient 1 prepared correctly</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>8: Pancakes</td><td>Delivered without dropping any ingredient</td><td>5</td><td>0</td><td>0</td></tr>
+<tr><td>8: Pancakes</td><td>Delivered late</td><td>-2</td><td>0</td><td>0</td></tr>
+<tr><td>8: Pancakes</td><td>Delivered early</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td><strong>Total</strong></td><td><strong></strong></td><td><strong>97</strong></td><td><strong>60</strong></td><td><strong>62.4</strong></td></tr>
+</table>
 
 </details>
 
