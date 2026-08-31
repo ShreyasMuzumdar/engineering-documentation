@@ -64,9 +64,25 @@ The mount was changed from a single-piece to a **two-piece modular design**.
 *(Expand later with more detail on the mount redesign.)*
 
 ### Media
-- `Auger-final.png` — final assembly on rover
-- `augervideo.mp4`, `ld auger 1.mov`, `IMG_8001–8006.mov` — test/deployment footage
-- `IMG_7949, 7950, 7951, 7975, 7976, 7987, 8021` — supporting build photos
+**Design comparison videos:**
+
+Ice auger (initial design):
+<video controls width="600" src="/static/images/robot-photos/auger/augervideo2.mp4"></video>
+
+Straight tube (final design):
+<video controls width="600" src="/static/images/robot-photos/auger/augervideo1.mp4"></video>
+
+**Build/test photos:**
+
+![Build photo](/static/images/robot-photos/auger/IMG_7949.jpeg)
+![Build photo](/static/images/robot-photos/auger/IMG_7950.jpeg)
+![Build photo](/static/images/robot-photos/auger/IMG_7951.png)
+![Build photo](/static/images/robot-photos/auger/IMG_7975.jpeg)
+![Build photo](/static/images/robot-photos/auger/IMG_7976.jpeg)
+![Build photo](/static/images/robot-photos/auger/IMG_7987.jpeg)
+![Build photo](/static/images/robot-photos/auger/IMG_8021.jpeg)
+
+*Captions are placeholders — swap in more specific descriptions once reviewed.*
 
 *Documentation to be expanded further — testing results (sand yield data) and final drive-shaft details pending.*
 
