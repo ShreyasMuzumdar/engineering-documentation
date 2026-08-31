@@ -120,7 +120,7 @@ Wire-cutting vs. the vault sequence, side by side — this is the actual trade w
 
 Here's how the 66 points we did earn broke down by stage:
 
-<svg viewBox="0 0 500 380" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
+<svg viewBox="-85 0 670 380" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
   <defs>
     <marker id="arrowhead-heist" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
@@ -194,7 +194,7 @@ Near the end of our run, two pancake orders came in and our rover didn't have th
 
 Share of the total 62.4 points earned, by order (same-item orders share a color):
 
-<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:520px; height:auto;">
+<svg viewBox="-30 -15 550 415" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:520px; height:auto;">
   <defs>
     <marker id="arrowhead-rc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
