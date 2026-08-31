@@ -97,23 +97,23 @@ Wire-cutting vs. the vault sequence, side by side — this is the actual trade w
 
 <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
   <rect x="150" y="4" width="14" height="14" fill="#c9c9c9"/>
-  <text x="170" y="15" font-size="12" fill="#333">Max Points</text>
+  <text x="170" y="15" font-size="12" fill="#fff">Max Points</text>
   <rect x="290" y="4" width="14" height="14" fill="#2f6690"/>
-  <text x="310" y="15" font-size="12" fill="#333">Points Earned</text>
+  <text x="310" y="15" font-size="12" fill="#fff">Points Earned</text>
 
   <line x1="140" y1="30" x2="140" y2="165" stroke="#999" stroke-width="1"/>
 
-  <text x="140" y="38" font-size="12" fill="#333">Disable Cameras (cut the wire)</text>
+  <text x="140" y="38" font-size="12" fill="#fff">Disable Cameras (cut the wire)</text>
   <rect x="140" y="44" width="96" height="20" fill="#c9c9c9"/>
-  <text x="242" y="58" font-size="12" fill="#333">12</text>
+  <text x="242" y="58" font-size="12" fill="#fff">12</text>
   <rect x="140" y="68" width="1" height="20" fill="#2f6690"/>
-  <text x="146" y="82" font-size="12" fill="#333">0</text>
+  <text x="146" y="82" font-size="12" fill="#fff">0</text>
 
-  <text x="140" y="108" font-size="12" fill="#333">Open Vault (vault sequence)</text>
+  <text x="140" y="108" font-size="12" fill="#fff">Open Vault (vault sequence)</text>
   <rect x="140" y="114" width="296" height="20" fill="#c9c9c9"/>
-  <text x="442" y="128" font-size="12" fill="#333">37</text>
+  <text x="442" y="128" font-size="12" fill="#fff">37</text>
   <rect x="140" y="138" width="248" height="20" fill="#2f6690"/>
-  <text x="394" y="152" font-size="12" fill="#333">31</text>
+  <text x="394" y="152" font-size="12" fill="#fff">31</text>
 </svg>
 
 *Cutting the wire was worth up to 12 points; we scored 0. The vault sequence was worth up to 37 and we scored 31 — nearly the entire wire-disable stage's max value, just from the one decision to skip it and focus there instead.*
@@ -134,13 +134,13 @@ Here's how the 66 points we did earn broke down by stage:
   <text x="155" y="174" font-size="13" fill="#fff" text-anchor="middle">47%</text>
 
   <line x1="274" y1="45" x2="259" y2="83" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-heist)"/>
-  <text x="280" y="32" font-size="12" fill="#333" text-anchor="start">Approach Camera Controls (8 pts)</text>
+  <text x="280" y="32" font-size="12" fill="#fff" text-anchor="start">Approach Camera Controls (8 pts)</text>
 
   <line x1="349" y1="246" x2="313" y2="228" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-heist)"/>
-  <text x="362" y="253" font-size="12" fill="#333" text-anchor="start">Identify Vault Code (27 pts)</text>
+  <text x="362" y="253" font-size="12" fill="#fff" text-anchor="start">Identify Vault Code (27 pts)</text>
 
   <line x1="76" y1="166" x2="115" y2="170" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-heist)"/>
-  <text x="61" y="165" font-size="12" fill="#333" text-anchor="end">Open Vault (31 pts)</text>
+  <text x="61" y="165" font-size="12" fill="#fff" text-anchor="end">Open Vault (31 pts)</text>
 </svg>
 
 *Nearly 90% of our points came from the two stages we actually attempted — the vault sequence alone accounted for almost half of everything we scored. Disable Cameras isn't shown since it earned 0%.*
@@ -210,28 +210,28 @@ Share of the total 62.4 points earned, by order (same-item orders share a color)
   <path d="M220,180 L210,81 A100,100 0 0,1 220,80 Z" fill="#e08a2c"/>
 
   <line x1="302" y1="54" x2="277" y2="92" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="308" y="47" font-size="11" fill="#333" text-anchor="start">1: Apple — 18%</text>
+  <text x="308" y="47" font-size="11" fill="#fff" text-anchor="start">1: Apple — 18%</text>
 
   <line x1="360" y1="126" x2="318" y2="142" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="366" y="122" font-size="11" fill="#333" text-anchor="start">2: Pancakes — 2%</text>
+  <text x="366" y="122" font-size="11" fill="#fff" text-anchor="start">2: Pancakes — 2%</text>
 
   <line x1="341" y1="268" x2="305" y2="242" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="347" y="275" font-size="11" fill="#333" text-anchor="start">3: Sub — 30%</text>
+  <text x="347" y="275" font-size="11" fill="#fff" text-anchor="start">3: Sub — 30%</text>
 
   <line x1="204" y1="329" x2="209" y2="284" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="204" y="342" font-size="11" fill="#333" text-anchor="middle">4: Spaghetti — 3%</text>
+  <text x="204" y="342" font-size="11" fill="#fff" text-anchor="middle">4: Spaghetti — 3%</text>
 
   <line x1="120" y1="291" x2="150" y2="258" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="114" y="304" font-size="11" fill="#333" text-anchor="end">5: Apple — 17%</text>
+  <text x="114" y="304" font-size="11" fill="#fff" text-anchor="end">5: Apple — 17%</text>
 
   <line x1="73" y1="211" x2="117" y2="202" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="67" y="215" font-size="11" fill="#333" text-anchor="end">6: Pizza — 3%</text>
+  <text x="67" y="215" font-size="11" fill="#fff" text-anchor="end">6: Pizza — 3%</text>
 
   <line x1="103" y1="86" x2="138" y2="114" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="97" y="80" font-size="11" fill="#333" text-anchor="end">7: Sub — 25%</text>
+  <text x="97" y="80" font-size="11" fill="#fff" text-anchor="end">7: Sub — 25%</text>
 
   <line x1="212" y1="30" x2="215" y2="75" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="212" y="20" font-size="11" fill="#333" text-anchor="middle">8: Pancakes — 2%</text>
+  <text x="212" y="20" font-size="11" fill="#fff" text-anchor="middle">8: Pancakes — 2%</text>
 </svg>
 
 *The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4% — but as it turned out, that 4% was the margin between winning the award and not.*
