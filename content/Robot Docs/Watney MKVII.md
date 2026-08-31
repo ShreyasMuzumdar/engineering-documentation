@@ -79,7 +79,6 @@ The mount was changed from a single-piece to a **two-piece modular design**.
 I was team strategist for our runs at CIRC (Canadian International Rover Challenge) — deciding what to attempt, what to skip, and how to spend our set-up and run time on each mission.
 
 #### Heist Mission
-
 The Heist Mission scores points for evading a camera/tripwire system, disabling the cameras by cutting the correct wire, then decoding a security console and opening a vault by Morse code. Every stealth step scores on its own, but none of it matters if you never actually get the artifact out.
 
 Our read going in: reaching the vault and getting the artifact out was worth far more, in points and in outcome, than doing the stealth portion cleanly — and the tripwire/camera avoidance and the wire-disable panel were also the hardest parts of the course to execute reliably. So we walked straight past the cameras and the wire panel and put all our effort into nailing the vault sequence.
@@ -96,51 +95,55 @@ That trade cost us 28 points outright — the full camera-avoidance points and t
 
 Wire-cutting vs. the vault sequence, side by side — this is the actual trade we made:
 
-<svg viewBox="0 0 500 330" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
-  <rect x="150" y="10" width="14" height="14" fill="#c9c9c9"/>
-  <text x="170" y="21" font-size="12" fill="#333">Max Points</text>
-  <rect x="290" y="10" width="14" height="14" fill="#2f6690"/>
-  <text x="310" y="21" font-size="12" fill="#333">Points Earned</text>
+<svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
+  <rect x="150" y="4" width="14" height="14" fill="#c9c9c9"/>
+  <text x="170" y="15" font-size="12" fill="#333">Max Points</text>
+  <rect x="290" y="4" width="14" height="14" fill="#2f6690"/>
+  <text x="310" y="15" font-size="12" fill="#333">Points Earned</text>
 
-  <line x1="30" y1="260" x2="470" y2="260" stroke="#999" stroke-width="1"/>
+  <line x1="140" y1="30" x2="140" y2="165" stroke="#999" stroke-width="1"/>
 
-  <rect x="80" y="194" width="60" height="66" fill="#c9c9c9"/>
-  <text x="110" y="187" font-size="12" text-anchor="middle" fill="#333">12</text>
-  <text x="190" y="253" font-size="12" text-anchor="middle" fill="#333">0</text>
-  <text x="150" y="280" font-size="12" text-anchor="middle" fill="#333">Disable Cameras</text>
-  <text x="150" y="294" font-size="11" text-anchor="middle" fill="#666">(cut the wire)</text>
+  <text x="140" y="38" font-size="12" fill="#333">Disable Cameras (cut the wire)</text>
+  <rect x="140" y="44" width="96" height="20" fill="#c9c9c9"/>
+  <text x="242" y="58" font-size="12" fill="#333">12</text>
+  <rect x="140" y="68" width="1" height="20" fill="#2f6690"/>
+  <text x="146" y="82" font-size="12" fill="#333">0</text>
 
-  <rect x="280" y="56" width="60" height="204" fill="#c9c9c9"/>
-  <text x="310" y="49" font-size="12" text-anchor="middle" fill="#333">37</text>
-  <rect x="360" y="89" width="60" height="171" fill="#2f6690"/>
-  <text x="390" y="82" font-size="12" text-anchor="middle" fill="#333">31</text>
-  <text x="350" y="280" font-size="12" text-anchor="middle" fill="#333">Open Vault</text>
-  <text x="350" y="294" font-size="11" text-anchor="middle" fill="#666">(vault sequence)</text>
+  <text x="140" y="108" font-size="12" fill="#333">Open Vault (vault sequence)</text>
+  <rect x="140" y="114" width="296" height="20" fill="#c9c9c9"/>
+  <text x="442" y="128" font-size="12" fill="#333">37</text>
+  <rect x="140" y="138" width="248" height="20" fill="#2f6690"/>
+  <text x="394" y="152" font-size="12" fill="#333">31</text>
 </svg>
 
 *Cutting the wire was worth up to 12 points; we scored 0. The vault sequence was worth up to 37 and we scored 31 — nearly the entire wire-disable stage's max value, just from the one decision to skip it and focus there instead.*
 
 Here's how the 66 points we did earn broke down by stage:
 
-<svg viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:320px; height:auto;">
-  <path d="M150,150 L150,30 A120,120 0 0,1 233,63 Z" fill="#4c9a8c"/>
-  <path d="M150,150 L233,63 A120,120 0 0,1 127,268 Z" fill="#2f6690"/>
-  <path d="M150,150 L127,268 A120,120 0 0,1 150,30 Z" fill="#e08a2c"/>
-  <text x="178" y="80" font-size="13" fill="#fff" text-anchor="middle">12%</text>
-  <text x="217" y="184" font-size="13" fill="#fff" text-anchor="middle">41%</text>
-  <text x="75" y="143" font-size="13" fill="#fff" text-anchor="middle">47%</text>
+<svg viewBox="0 0 500 380" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
+  <defs>
+    <marker id="arrowhead-heist" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+  <path d="M220,180 L220,80 A100,100 0 0,1 289,108 Z" fill="#4c9a8c"/>
+  <path d="M220,180 L289,108 A100,100 0 0,1 201,278 Z" fill="#2f6690"/>
+  <path d="M220,180 L201,278 A100,100 0 0,1 220,80 Z" fill="#e08a2c"/>
+  <text x="244" y="120" font-size="13" fill="#fff" text-anchor="middle">12%</text>
+  <text x="278" y="210" font-size="13" fill="#fff" text-anchor="middle">41%</text>
+  <text x="155" y="174" font-size="13" fill="#fff" text-anchor="middle">47%</text>
 
-  <rect x="10" y="300" width="14" height="14" fill="#4c9a8c"/>
-  <text x="28" y="311" font-size="12" fill="#333">Approach Camera Controls — 8 pts (12%)</text>
-  <rect x="10" y="322" width="14" height="14" fill="#c9c9c9"/>
-  <text x="28" y="333" font-size="12" fill="#333">Disable Cameras — 0 pts (0%)</text>
-  <rect x="10" y="344" width="14" height="14" fill="#2f6690"/>
-  <text x="28" y="355" font-size="12" fill="#333">Identify Vault Code — 27 pts (41%)</text>
-  <rect x="10" y="366" width="14" height="14" fill="#e08a2c"/>
-  <text x="28" y="377" font-size="12" fill="#333">Open Vault — 31 pts (47%)</text>
+  <line x1="274" y1="45" x2="259" y2="83" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-heist)"/>
+  <text x="280" y="32" font-size="12" fill="#333" text-anchor="start">Approach Camera Controls (8 pts)</text>
+
+  <line x1="349" y1="246" x2="313" y2="228" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-heist)"/>
+  <text x="362" y="253" font-size="12" fill="#333" text-anchor="start">Identify Vault Code (27 pts)</text>
+
+  <line x1="76" y1="166" x2="115" y2="170" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-heist)"/>
+  <text x="61" y="165" font-size="12" fill="#333" text-anchor="end">Open Vault (31 pts)</text>
 </svg>
 
-*Nearly 90% of our points came from the two stages we actually attempted — the vault sequence alone accounted for almost half of everything we scored.*
+*Nearly 90% of our points came from the two stages we actually attempted — the vault sequence alone accounted for almost half of everything we scored. Disable Cameras isn't shown since it earned 0%.*
 
 <details>
 <summary>Full official rubric — Heist Mission</summary>
@@ -150,30 +153,29 @@ Rover mass: 49.9kg, no mass bonus (100%). Repair/modification penalties were 0 t
 | Stage | Action | Max | Earned |
 |---|---|---|---|
 | Approach Camera Controls | Avoid tripwires | 4 | 0 |
-| | Avoid camera | 4 | 0 |
-| | Avoid shining light on area viewed by camera | 8 | 0 |
-| | Reach camera controls | 8 | 8 |
+| Approach Camera Controls | Avoid camera | 4 | 0 |
+| Approach Camera Controls | Avoid shining light on area viewed by camera | 8 | 0 |
+| Approach Camera Controls | Reach camera controls | 8 | 8 |
 | Disable Cameras | Identify correct wire to cut | 3 | 0 |
-| | Cut a wire | 6 | 0 |
-| | Cut the correct wire | 3 | 0 |
+| Disable Cameras | Cut a wire | 6 | 0 |
+| Disable Cameras | Cut the correct wire | 3 | 0 |
 | Identify Vault Code | Approach security console | 5 | 5 |
-| | Attempt to decode security console password | 6 | 6 |
-| | Correctly decode security console password | 4 | 4 |
-| | Physically interface with security console | 6 | 6 |
-| | Correctly find vault code | 6 | 6 |
+| Identify Vault Code | Attempt to decode security console password | 6 | 6 |
+| Identify Vault Code | Correctly decode security console password | 4 | 4 |
+| Identify Vault Code | Physically interface with security console | 6 | 6 |
+| Identify Vault Code | Correctly find vault code | 6 | 6 |
 | Open Vault | Approach Morse key | 4 | 4 |
-| | Interact with Morse key | 6 | 6 |
-| | Enter the vault code | 6 | 6 |
-| | Enter the vault code fast enough | 6 | 0 |
-| | Open the vault door | 5 | 5 |
-| | Remove the artifact from the vault | 5 | 5 |
-| | Return to the extraction point with the artifact | 5 | 5 |
+| Open Vault | Interact with Morse key | 6 | 6 |
+| Open Vault | Enter the vault code | 6 | 6 |
+| Open Vault | Enter the vault code fast enough | 6 | 0 |
+| Open Vault | Open the vault door | 5 | 5 |
+| Open Vault | Remove the artifact from the vault | 5 | 5 |
+| Open Vault | Return to the extraction point with the artifact | 5 | 5 |
 | **Total** | | **100** | **66** |
 
 </details>
 
 #### RoverCooked
-
 For RoverCooked, the strategist's job was juggling incoming orders — each with its own countdown timer, ingredients, and prep steps — while the rover worked through the queue.
 
 Near the end of our run, two pancake orders came in and our rover didn't have the dexterity to actually flip and plate one. Rather than let both go untouched, I sent the first pancake order through anyway just to pick up the ingredient-touch point before moving on. It mattered more than it seemed at the time — that 1.04-point touch (after our rover's 104% mass bonus) turned out to be the exact margin we needed to win the RoverCooked award.
@@ -190,35 +192,46 @@ Near the end of our run, two pancake orders came in and our rover didn't have th
 | 8 | Pancakes | 1.04 |
 | **Total** | | **62.4** |
 
-Share of the total 62.4 points earned, by order (same-item orders share a color — you can see how much both Subs carried the run, and how little the two pancake attempts contributed):
+Share of the total 62.4 points earned, by order (same-item orders share a color):
 
-<svg viewBox="0 0 340 400" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:340px; height:auto;">
-  <path d="M150,150 L150,30 A120,120 0 0,1 260,101 Z" fill="#4c9a8c"/>
-  <path d="M150,150 L260,101 A120,120 0 0,1 264,113 Z" fill="#e08a2c"/>
-  <path d="M150,150 L264,113 A120,120 0 0,1 150,270 Z" fill="#2f6690"/>
-  <path d="M150,150 L150,270 A120,120 0 0,1 125,267 Z" fill="#8a6bbf"/>
-  <path d="M150,150 L125,267 A120,120 0 0,1 36,187 Z" fill="#4c9a8c"/>
-  <path d="M150,150 L36,187 A120,120 0 0,1 31,163 Z" fill="#c94f4f"/>
-  <path d="M150,150 L31,163 A120,120 0 0,1 137,31 Z" fill="#2f6690"/>
-  <path d="M150,150 L137,31 A120,120 0 0,1 150,30 Z" fill="#e08a2c"/>
+<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:520px; height:auto;">
+  <defs>
+    <marker id="arrowhead-rc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+  <path d="M220,180 L220,80 A100,100 0 0,1 311,139 Z" fill="#4c9a8c"/>
+  <path d="M220,180 L311,139 A100,100 0 0,1 315,149 Z" fill="#e08a2c"/>
+  <path d="M220,180 L315,149 A100,100 0 0,1 220,280 Z" fill="#2f6690"/>
+  <path d="M220,180 L220,280 A100,100 0 0,1 199,278 Z" fill="#8a6bbf"/>
+  <path d="M220,180 L199,278 A100,100 0 0,1 125,211 Z" fill="#4c9a8c"/>
+  <path d="M220,180 L125,211 A100,100 0 0,1 121,190 Z" fill="#c94f4f"/>
+  <path d="M220,180 L121,190 A100,100 0 0,1 210,81 Z" fill="#2f6690"/>
+  <path d="M220,180 L210,81 A100,100 0 0,1 220,80 Z" fill="#e08a2c"/>
 
-  <rect x="10" y="294" width="14" height="14" fill="#4c9a8c"/>
-  <text x="28" y="305" font-size="11" fill="#333">1: Apple — 11.44 (18%)</text>
-  <rect x="10" y="316" width="14" height="14" fill="#e08a2c"/>
-  <text x="28" y="327" font-size="11" fill="#333">2: Pancakes — 1.04 (2%)</text>
-  <rect x="10" y="338" width="14" height="14" fill="#2f6690"/>
-  <text x="28" y="349" font-size="11" fill="#333">3: Sub — 18.72 (30%)</text>
-  <rect x="10" y="360" width="14" height="14" fill="#8a6bbf"/>
-  <text x="28" y="371" font-size="11" fill="#333">4: Spaghetti — 2.08 (3%)</text>
+  <line x1="302" y1="54" x2="277" y2="92" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="308" y="47" font-size="11" fill="#333" text-anchor="start">1: Apple — 18%</text>
 
-  <rect x="175" y="294" width="14" height="14" fill="#4c9a8c"/>
-  <text x="193" y="305" font-size="11" fill="#333">5: Apple — 10.40 (17%)</text>
-  <rect x="175" y="316" width="14" height="14" fill="#c94f4f"/>
-  <text x="193" y="327" font-size="11" fill="#333">6: Pizza — 2.08 (3%)</text>
-  <rect x="175" y="338" width="14" height="14" fill="#2f6690"/>
-  <text x="193" y="349" font-size="11" fill="#333">7: Sub — 15.60 (25%)</text>
-  <rect x="175" y="360" width="14" height="14" fill="#e08a2c"/>
-  <text x="193" y="371" font-size="11" fill="#333">8: Pancakes — 1.04 (2%)</text>
+  <line x1="360" y1="126" x2="318" y2="142" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="366" y="122" font-size="11" fill="#333" text-anchor="start">2: Pancakes — 2%</text>
+
+  <line x1="341" y1="268" x2="305" y2="242" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="347" y="275" font-size="11" fill="#333" text-anchor="start">3: Sub — 30%</text>
+
+  <line x1="204" y1="329" x2="209" y2="284" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="204" y="342" font-size="11" fill="#333" text-anchor="middle">4: Spaghetti — 3%</text>
+
+  <line x1="120" y1="291" x2="150" y2="258" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="114" y="304" font-size="11" fill="#333" text-anchor="end">5: Apple — 17%</text>
+
+  <line x1="73" y1="211" x2="117" y2="202" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="67" y="215" font-size="11" fill="#333" text-anchor="end">6: Pizza — 3%</text>
+
+  <line x1="103" y1="86" x2="138" y2="114" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="97" y="80" font-size="11" fill="#333" text-anchor="end">7: Sub — 25%</text>
+
+  <line x1="212" y1="30" x2="215" y2="75" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
+  <text x="212" y="20" font-size="11" fill="#333" text-anchor="middle">8: Pancakes — 2%</text>
 </svg>
 
 *The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4% — but as it turned out, that 4% was the margin between winning the award and not.*
@@ -231,62 +244,62 @@ Rover mass: 46kg, 104% mass bonus (why "1 point earned" shows up as 1.04 modifie
 | Order | Action | Max | Earned | Modified |
 |---|---|---|---|---|
 | 1: Apple | Rover leaves start line | 1 | 1 | 1.04 |
-| | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 1 | 1.04 |
+| 1: Apple | Ingredient 1 touched | 1 | 1 | 1.04 |
+| 1: Apple | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
+| 1: Apple | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
+| 1: Apple | Delivered late | -2 | 0 | 0 |
+| 1: Apple | Delivered early | 1 | 1 | 1.04 |
 | 2: Pancakes | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 0 | 0 |
+| 2: Pancakes | Ingredient 1 prepared correctly | 3 | 0 | 0 |
+| 2: Pancakes | Delivered without dropping any ingredient | 5 | 0 | 0 |
+| 2: Pancakes | Delivered late | -2 | 0 | 0 |
+| 2: Pancakes | Delivered early | 1 | 0 | 0 |
 | 3: Sub | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| | Ingredient 2 touched | 1 | 1 | 1.04 |
-| | Ingredient 2 prepared correctly | 3 | 3 | 3.12 |
-| | Ingredient 3 touched | 1 | 1 | 1.04 |
-| | Ingredient 3 prepared correctly | 3 | 3 | 3.12 |
-| | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 1 | 1.04 |
+| 3: Sub | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
+| 3: Sub | Ingredient 2 touched | 1 | 1 | 1.04 |
+| 3: Sub | Ingredient 2 prepared correctly | 3 | 3 | 3.12 |
+| 3: Sub | Ingredient 3 touched | 1 | 1 | 1.04 |
+| 3: Sub | Ingredient 3 prepared correctly | 3 | 3 | 3.12 |
+| 3: Sub | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
+| 3: Sub | Delivered late | -2 | 0 | 0 |
+| 3: Sub | Delivered early | 1 | 1 | 1.04 |
 | 4: Spaghetti | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| | Ingredient 2 touched | 1 | 1 | 1.04 |
-| | Ingredient 2 prepared correctly | 3 | 0 | 0 |
-| | Ingredient 3 touched | 1 | 0 | 0 |
-| | Ingredient 3 prepared correctly | 3 | 0 | 0 |
-| | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 0 | 0 |
+| 4: Spaghetti | Ingredient 1 prepared correctly | 3 | 0 | 0 |
+| 4: Spaghetti | Ingredient 2 touched | 1 | 1 | 1.04 |
+| 4: Spaghetti | Ingredient 2 prepared correctly | 3 | 0 | 0 |
+| 4: Spaghetti | Ingredient 3 touched | 1 | 0 | 0 |
+| 4: Spaghetti | Ingredient 3 prepared correctly | 3 | 0 | 0 |
+| 4: Spaghetti | Delivered without dropping any ingredient | 5 | 0 | 0 |
+| 4: Spaghetti | Delivered late | -2 | 0 | 0 |
+| 4: Spaghetti | Delivered early | 1 | 0 | 0 |
 | 5: Apple | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 1 | 1.04 |
+| 5: Apple | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
+| 5: Apple | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
+| 5: Apple | Delivered late | -2 | 0 | 0 |
+| 5: Apple | Delivered early | 1 | 1 | 1.04 |
 | 6: Pizza | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| | Ingredient 2 touched | 1 | 1 | 1.04 |
-| | Ingredient 2 prepared correctly | 3 | 0 | 0 |
-| | Ingredient 3 touched | 1 | 0 | 0 |
-| | Ingredient 3 prepared correctly | 3 | 0 | 0 |
-| | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 0 | 0 |
+| 6: Pizza | Ingredient 1 prepared correctly | 3 | 0 | 0 |
+| 6: Pizza | Ingredient 2 touched | 1 | 1 | 1.04 |
+| 6: Pizza | Ingredient 2 prepared correctly | 3 | 0 | 0 |
+| 6: Pizza | Ingredient 3 touched | 1 | 0 | 0 |
+| 6: Pizza | Ingredient 3 prepared correctly | 3 | 0 | 0 |
+| 6: Pizza | Delivered without dropping any ingredient | 5 | 0 | 0 |
+| 6: Pizza | Delivered late | -2 | 0 | 0 |
+| 6: Pizza | Delivered early | 1 | 0 | 0 |
 | 7: Sub | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
-| | Ingredient 2 touched | 1 | 1 | 1.04 |
-| | Ingredient 2 prepared correctly | 3 | 3 | 3.12 |
-| | Ingredient 3 touched | 1 | 1 | 1.04 |
-| | Ingredient 3 prepared correctly | 3 | 3 | 3.12 |
-| | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
-| | Delivered late | -2 | -2 | -2.08 |
-| | Delivered early | 1 | 0 | 0 |
+| 7: Sub | Ingredient 1 prepared correctly | 3 | 3 | 3.12 |
+| 7: Sub | Ingredient 2 touched | 1 | 1 | 1.04 |
+| 7: Sub | Ingredient 2 prepared correctly | 3 | 3 | 3.12 |
+| 7: Sub | Ingredient 3 touched | 1 | 1 | 1.04 |
+| 7: Sub | Ingredient 3 prepared correctly | 3 | 3 | 3.12 |
+| 7: Sub | Delivered without dropping any ingredient | 5 | 5 | 5.2 |
+| 7: Sub | Delivered late | -2 | -2 | -2.08 |
+| 7: Sub | Delivered early | 1 | 0 | 0 |
 | 8: Pancakes | Ingredient 1 touched | 1 | 1 | 1.04 |
-| | Ingredient 1 prepared correctly | 3 | 0 | 0 |
-| | Delivered without dropping any ingredient | 5 | 0 | 0 |
-| | Delivered late | -2 | 0 | 0 |
-| | Delivered early | 1 | 0 | 0 |
+| 8: Pancakes | Ingredient 1 prepared correctly | 3 | 0 | 0 |
+| 8: Pancakes | Delivered without dropping any ingredient | 5 | 0 | 0 |
+| 8: Pancakes | Delivered late | -2 | 0 | 0 |
+| 8: Pancakes | Delivered early | 1 | 0 | 0 |
 | **Total** | | **97** | **60** | **62.4** |
 
 </details>
