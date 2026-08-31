@@ -1,4 +1,4 @@
-# 🪐 Watney MKVII
+﻿# ðŸª Watney MKVII
 
 **Team:** Northeastern University Rover Team | **Competitions:** URC / CIRC | **Category:** Mars-Analog Rover
 
@@ -6,7 +6,7 @@
 
 Watney MKVII is Northeastern's Mars-analog rover, built to compete in the University Rover Challenge (URC) and the Canadian International Rover Challenge (CIRC). These competitions push teams to build rovers capable of autonomous navigation, sample collection, and life detection tasks under Mars-mission-like conditions.
 
-*(Expand later: team structure, mission tasks, overall rover architecture.)*
+Still need to add team structure, mission tasks, and the overall rover architecture here.
 
 ## My Contributions
 
@@ -20,80 +20,70 @@ The Auger is a subsystem on the Watney MKVII rover designed to collect sand samp
 
 One of the first steps in designing the auger was figuring out how to couple the drive motor to the auger bit itself.
 
-The first attempt used a **3D-printed coupler**. It was not able to tension properly under load, so it broke.
+The first attempt used a 3D-printed coupler. It couldn't hold tension properly under load, so it broke.
 
 ![Initial 3D-printed motor-to-auger coupler, which broke](/static/images/robot-photos/auger/auger-one.jpeg)
-*Initial 3D-printed coupler — could not hold tension and failed.*
+*Initial 3D-printed coupler that couldn't hold tension and failed.*
 
-After that failure, an **aluminum coupler** was ordered and used instead, which held up properly.
+After that failure, we ordered an aluminum coupler instead, and it held up fine.
 
 ![Aluminum motor-to-auger coupler](/static/images/robot-photos/auger/auger-two.jpeg)
 *Aluminum coupler that replaced the failed 3D-printed part.*
 
 #### Design Iteration: Straight Tube vs. Ice Auger
 
-Two candidate designs were considered for the collection mechanism:
-
-1. **Straight tube** — a simple hollow tube driven into the sand to collect a sample.
-2. **Ice auger** — a helical drill bit (of the type normally used for drilling into ice) used to bore into and collect sand.
+Two candidate designs were considered for the collection mechanism: a straight tube, which is just a simple hollow tube driven into the sand to collect a sample, and an ice auger, a helical drill bit normally used for drilling into ice, repurposed here to bore into and collect sand.
 
 ![Ice auger setup mounted on the rover](/static/images/robot-photos/auger/auger-three.jpeg)
 *Ice auger setup mounted on the rover during testing.*
 
-##### Why the ice auger was attractive
-- Despite being smaller in diameter than the tube, its helical drill geometry let it dig deeper into the sand column, whereas the straight tube struggled to penetrate to the same depth.
-- It also demonstrated higher accuracy in sample placement/collection during testing.
+The ice auger was appealing at first. Even though it was smaller in diameter than the tube, its helical drill geometry let it dig deeper into the sand column than the straight tube could manage, and it was noticeably more accurate at placing and collecting samples during testing.
 
-Test footage of the ice auger digging into a sand sample:
+Here's test footage of the ice auger digging into a sand sample:
 <video controls style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo2.mp4"></video>
 
-##### Why the ice auger was ultimately not used
-- Because it was originally designed for ice (not sand), its flighting/sizing was too small in cross-section, which limited the *volume* of sand it could carry per pass.
-- In practice: the video above shows the ice auger boring into a sand sample cleanly, with no mechanical issues digging in. However, when the collected sample was measured, the yield was far below the target amount needed for the life-detection tests.
+The problem was that the ice auger was designed for ice, not sand, so its flighting and overall sizing were too small to carry much volume per pass. The footage above shows it boring into the sand cleanly with no mechanical issues, but when we actually measured the collected sample afterward, the yield was far below what we needed for the life-detection tests.
 
-##### Decision
-The team reverted to the straight tube design, which — despite the depth/accuracy tradeoffs — reliably collected an adequate volume of sand once implemented.
+So we went back to the straight tube design. It gave up some depth and accuracy compared to the auger, but it reliably collected enough sand once we got it working.
 
-Straight tube (final design) in testing:
+Here's the straight tube (final design) in testing:
 <video controls style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo1.mp4"></video>
 
-> **Design note:** the transition between the two concepts was intentionally kept low-friction — the initial mount was designed so switching from the ice auger back to the tube design would not require a major rebuild.
+One thing we did right early on: we kept the transition between the two concepts low friction. The mount was designed so switching from the ice auger back to the tube wouldn't require a major rebuild.
 
 #### Drive/Power Considerations
 
-The shaft interface was originally driven by a **hexagonal-shaped shaft**, chosen specifically because it mated well with the hexagonal socket geometry of the ice auger bit.
+The shaft interface was originally driven by a hexagonal shaft, chosen because it mated well with the hexagonal socket on the ice auger bit.
 
-*(Follow-up needed: document how the drive interface changed, if at all, once the design moved to the straight tube.)*
+Still need to document how the drive interface changed once we moved to the straight tube.
 
 #### Mount Redesign
 
-The mount was changed from a single-piece to a **two-piece modular design**.
+We changed the mount from a single piece to a two-piece modular design. The motor that lowers and raises the auger can now fully detach from the rest of the assembly, which makes minor adjustments and maintenance a lot easier.
 
-**Benefit:** the motor that lowers/raises the auger can now fully detach from the rest of the assembly, making minor system adjustments and maintenance significantly easier.
-
-*(Expand later with more detail on the mount redesign.)*
-
-*Documentation to be expanded further — testing results (sand yield data) and final drive-shaft details pending.*
+Still need to expand on the details of the mount redesign, and add testing results (sand yield data) and the final drive-shaft details.
 
 ### CIRC
-I was team strategist for our runs at CIRC (Canadian International Rover Challenge) — deciding what to attempt, what to skip, and how to spend our set-up and run time on each mission.
+
+I was team strategist for our runs at CIRC (Canadian International Rover Challenge), deciding what to attempt, what to skip, and how to spend our set-up and run time on each mission.
 
 #### Heist Mission
-The Heist Mission scores points for evading a camera/tripwire system, disabling the cameras by cutting the correct wire, then decoding a security console and opening a vault by Morse code. Every stealth step scores on its own, but none of it matters if you never actually get the artifact out.
 
-Our read going in: reaching the vault and getting the artifact out was worth far more, in points and in outcome, than doing the stealth portion cleanly — and the tripwire/camera avoidance and the wire-disable panel were also the hardest parts of the course to execute reliably. So we walked straight past the cameras and the wire panel and put all our effort into nailing the vault sequence.
+The Heist Mission scores points for evading a camera and tripwire system, disabling the cameras by cutting the correct wire, then decoding a security console and opening a vault by Morse code. Every stealth step scores on its own, but none of it matters if you never actually get the artifact out.
 
-That trade cost us 28 points outright — the full camera-avoidance points and the entire wire-disable stage. In exchange, we were one of only three teams at the competition to actually open the vault and retrieve the artifact.
+Our read going in was that reaching the vault and getting the artifact out was worth far more, in points and in outcome, than doing the stealth portion cleanly. The tripwire and camera avoidance and the wire-disable panel were also the hardest parts of the course to execute reliably. So we walked straight past the cameras and the wire panel and put all our effort into nailing the vault sequence.
+
+That trade cost us 28 points outright: the full camera-avoidance points and the entire wire-disable stage. In exchange, we were one of only three teams at the competition to actually open the vault and retrieve the artifact.
 
 | Stage | Max Points | Points Earned | Notes |
 |---|---|---|---|
-| Approach Camera Controls | 24 | 8 | Skipped tripwire/camera/light avoidance (16 pts) — walked straight to the controls |
-| Disable Cameras | 12 | 0 | Skipped entirely — never cut a wire |
-| Identify Vault Code | 27 | 27 | Full points — console decode and code retrieval went clean |
+| Approach Camera Controls | 24 | 8 | Skipped tripwire, camera, and light avoidance (16 pts), walked straight to the controls |
+| Disable Cameras | 12 | 0 | Skipped entirely, never cut a wire |
+| Identify Vault Code | 27 | 27 | Full points, console decode and code retrieval went clean |
 | Open Vault | 37 | 31 | Full points except the speed bonus for entering the code fast enough |
 | **Total** | **100** | **66** | |
 
-Wire-cutting vs. the vault sequence, side by side — this is the actual trade we made:
+Wire-cutting vs. the vault sequence, side by side. This is the actual trade we made:
 
 <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; height:auto;">
   <rect x="150" y="4" width="14" height="14" fill="#c9c9c9"/>
@@ -116,7 +106,7 @@ Wire-cutting vs. the vault sequence, side by side — this is the actual trade w
   <text x="394" y="152" font-size="12" fill="#fff">31</text>
 </svg>
 
-*Cutting the wire was worth up to 12 points; we scored 0. The vault sequence was worth up to 37 and we scored 31 — nearly the entire wire-disable stage's max value, just from the one decision to skip it and focus there instead.*
+Cutting the wire was worth up to 12 points, and we scored 0. The vault sequence was worth up to 37, and we scored 31, almost the entire wire-disable stage's max value, just from the one decision to skip it and focus there instead.
 
 Here's how the 66 points we did earn broke down by stage:
 
@@ -143,12 +133,12 @@ Here's how the 66 points we did earn broke down by stage:
   <text x="61" y="165" font-size="12" fill="#fff" text-anchor="end">Open Vault (31 pts)</text>
 </svg>
 
-*Nearly 90% of our points came from the two stages we actually attempted — the vault sequence alone accounted for almost half of everything we scored. Disable Cameras isn't shown since it earned 0%.*
+Nearly 90% of our points came from the two stages we actually attempted. The vault sequence alone accounted for almost half of everything we scored. Disable Cameras isn't shown since it earned 0%.
 
 <details>
-<summary>Full official rubric — Heist Mission</summary>
+<summary>Full official rubric â€” Heist Mission</summary>
 
-Rover mass: 49.9kg, no mass bonus (100%). Repair/modification penalties were 0 throughout, so Points Earned = Modified Points here.
+Rover mass: 49.9kg, no mass bonus (100%). Repair and modification penalties were 0 throughout, so Points Earned equals Modified Points here.
 
 | Stage | Action | Max | Earned |
 |---|---|---|---|
@@ -176,9 +166,10 @@ Rover mass: 49.9kg, no mass bonus (100%). Repair/modification penalties were 0 t
 </details>
 
 #### RoverCooked
-For RoverCooked, the strategist's job was juggling incoming orders — each with its own countdown timer, ingredients, and prep steps — while the rover worked through the queue.
 
-Near the end of our run, two pancake orders came in and our rover didn't have the dexterity to actually flip and plate one. Rather than let both go untouched, I sent the first pancake order through anyway just to pick up the ingredient-touch point before moving on. It mattered more than it seemed at the time — that 1.04-point touch (after our rover's 104% mass bonus) turned out to be the exact margin we needed to win the RoverCooked award.
+For RoverCooked, the strategist's job was juggling incoming orders, each with its own countdown timer, ingredients, and prep steps, while the rover worked through the queue.
+
+Near the end of our run, two pancake orders came in and our rover didn't have the dexterity to actually flip and plate one. Rather than let both go untouched, I sent the first pancake order through anyway just to pick up the ingredient-touch point before moving on. It mattered more than it seemed at the time: that 1.04-point touch (after our rover's 104% mass bonus) turned out to be the exact margin we needed to win the RoverCooked award.
 
 | Order | Item | Points Earned |
 |---|---|---|
@@ -192,7 +183,7 @@ Near the end of our run, two pancake orders came in and our rover didn't have th
 | 8 | Pancakes | 1.04 |
 | **Total** | | **62.4** |
 
-Share of the total 62.4 points earned, by order (same-item orders share a color):
+Share of the total 62.4 points earned, by order. Same-item orders share a color:
 
 <svg viewBox="-30 -15 550 415" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:520px; height:auto;">
   <defs>
@@ -210,36 +201,36 @@ Share of the total 62.4 points earned, by order (same-item orders share a color)
   <path d="M220,180 L210,81 A100,100 0 0,1 220,80 Z" fill="#e08a2c"/>
 
   <line x1="302" y1="54" x2="277" y2="92" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="308" y="47" font-size="11" fill="#fff" text-anchor="start">1: Apple — 18%</text>
+  <text x="308" y="47" font-size="11" fill="#fff" text-anchor="start">1: Apple (18%)</text>
 
   <line x1="360" y1="126" x2="318" y2="142" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="366" y="122" font-size="11" fill="#fff" text-anchor="start">2: Pancakes — 2%</text>
+  <text x="366" y="122" font-size="11" fill="#fff" text-anchor="start">2: Pancakes (2%)</text>
 
   <line x1="341" y1="268" x2="305" y2="242" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="347" y="275" font-size="11" fill="#fff" text-anchor="start">3: Sub — 30%</text>
+  <text x="347" y="275" font-size="11" fill="#fff" text-anchor="start">3: Sub (30%)</text>
 
   <line x1="204" y1="329" x2="209" y2="284" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="204" y="342" font-size="11" fill="#fff" text-anchor="middle">4: Spaghetti — 3%</text>
+  <text x="204" y="342" font-size="11" fill="#fff" text-anchor="middle">4: Spaghetti (3%)</text>
 
   <line x1="120" y1="291" x2="150" y2="258" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="114" y="304" font-size="11" fill="#fff" text-anchor="end">5: Apple — 17%</text>
+  <text x="114" y="304" font-size="11" fill="#fff" text-anchor="end">5: Apple (17%)</text>
 
   <line x1="73" y1="211" x2="117" y2="202" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="67" y="215" font-size="11" fill="#fff" text-anchor="end">6: Pizza — 3%</text>
+  <text x="67" y="215" font-size="11" fill="#fff" text-anchor="end">6: Pizza (3%)</text>
 
   <line x1="103" y1="86" x2="138" y2="114" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="97" y="80" font-size="11" fill="#fff" text-anchor="end">7: Sub — 25%</text>
+  <text x="97" y="80" font-size="11" fill="#fff" text-anchor="end">7: Sub (25%)</text>
 
   <line x1="212" y1="30" x2="215" y2="75" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="212" y="20" font-size="11" fill="#fff" text-anchor="middle">8: Pancakes — 2%</text>
+  <text x="212" y="20" font-size="11" fill="#fff" text-anchor="middle">8: Pancakes (2%)</text>
 </svg>
 
-*The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4% — but as it turned out, that 4% was the margin between winning the award and not.*
+The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4%, but as it turned out, that 4% was the margin between winning the award and not.
 
 <details>
-<summary>Full official rubric — RoverCooked</summary>
+<summary>Full official rubric â€” RoverCooked</summary>
 
-Rover mass: 46kg, 104% mass bonus (why "1 point earned" shows up as 1.04 modified). Repair/modification penalties were 0 throughout.
+Rover mass: 46kg, 104% mass bonus (why "1 point earned" shows up as 1.04 modified). Repair and modification penalties were 0 throughout.
 
 | Order | Action | Max | Earned | Modified |
 |---|---|---|---|---|
@@ -308,15 +299,13 @@ Rover mass: 46kg, 104% mass bonus (why "1 point earned" shows up as 1.04 modifie
 
 ### Swerve Drive
 
-The one major drivetrain change on this iteration of the rover was a switch to a **swerve drive**.
+The one major drivetrain change on this iteration of the rover was switching to a swerve drive. The main advantage is omnidirectional mobility: the rover can move in any direction, forward, backward, sideways, or diagonally, while independently maintaining or rotating to any facing orientation.
 
-**Advantage:** the primary benefit of a swerve drive is omnidirectional mobility — the rover can move in any direction (forward, backward, sideways, diagonally) while independently maintaining or rotating to any facing orientation.
+We ran into an issue with wheel stiffness being too low, which caused traction problems. The wheels would get stuck when turning and trying to move at the same time.
 
-**Issue encountered:** the stiffness of the wheels was too low, which caused traction problems. The wheels would get "stuck" when turning and trying to move at the same time.
+Still need to add how the traction issue was diagnosed and fixed, and the final wheel spec changes.
 
-*(To add later: how the traction issue was diagnosed/fixed, final wheel spec changes.)*
-
-*(Additional subsystems to be added here.)*
+More subsystems to add here.
 
 ## Related Robots
 - [[Robot Docs/robot-docs|Robot Docs]]
