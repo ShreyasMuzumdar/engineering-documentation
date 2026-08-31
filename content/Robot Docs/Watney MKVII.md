@@ -40,14 +40,14 @@ Two candidate designs were considered for the collection mechanism: a straight t
 The ice auger was appealing at first. Even though it was smaller in diameter than the tube, its helical drill geometry let it dig deeper into the sand column than the straight tube could manage, and it was noticeably more accurate at placing and collecting samples during testing.
 
 Here's test footage of the ice auger digging into a sand sample:
-<video controls style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo2.mp4"></video>
+<video controls loop style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo2.mp4"></video>
 
 The problem was that the ice auger was designed for ice, not sand, so its flighting and overall sizing were too small to carry much volume per pass. The footage above shows it boring into the sand cleanly with no mechanical issues, but when we actually measured the collected sample afterward, the yield was far below what we needed for the life-detection tests.
 
 So we went back to the straight tube design. It gave up some depth and accuracy compared to the auger, but it reliably collected enough sand once we got it working.
 
 Here's the straight tube (final design) in testing:
-<video controls style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo1.mp4"></video>
+<video controls loop style="width: 100%; max-width: 600px; height: auto;" src="/static/images/robot-photos/auger/augervideo1.mp4"></video>
 
 One thing we did right early on: we kept the transition between the two concepts low friction. The mount was designed so switching from the ice auger back to the tube wouldn't require a major rebuild.
 
