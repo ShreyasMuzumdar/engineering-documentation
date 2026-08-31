@@ -74,15 +74,14 @@ Straight tube (final design):
 
 **Build/test photos:**
 
-![Build photo](/static/images/robot-photos/auger/IMG_7949.jpeg)
-![Build photo](/static/images/robot-photos/auger/IMG_7950.jpeg)
-![Build photo](/static/images/robot-photos/auger/IMG_7951.png)
-![Build photo](/static/images/robot-photos/auger/IMG_7975.jpeg)
-![Build photo](/static/images/robot-photos/auger/IMG_7976.jpeg)
-![Build photo](/static/images/robot-photos/auger/IMG_7987.jpeg)
-![Build photo](/static/images/robot-photos/auger/IMG_8021.jpeg)
+![Initial auger with 3D-printed motor-to-ice-auger coupler, which broke](/static/images/robot-photos/auger/auger-one.jpeg)
+*Initial auger — 3D-printed coupler between the motor and the ice auger, which broke under use.*
 
-*Captions are placeholders — swap in more specific descriptions once reviewed.*
+![Ice auger with aluminum coupler](/static/images/robot-photos/auger/auger-two.jpeg)
+*Ice auger fitted with an aluminum coupler after the 3D-printed one failed.*
+
+![Ice auger mounted on the rover](/static/images/robot-photos/auger/auger-three.jpeg)
+*Ice auger setup mounted on the rover.*
 
 *Documentation to be expanded further — testing results (sand yield data) and final drive-shaft details pending.*
 
