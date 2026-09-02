@@ -186,7 +186,7 @@ Near the end of our run, two pancake orders came in and our rover didn't have th
 
 Share of the total 62.4 points earned, by order. Same-item orders share a color:
 
-<svg viewBox="-30 -15 550 415" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:520px; height:auto;">
+<svg viewBox="-70 -15 620 415" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:520px; height:auto;">
   <defs>
     <marker id="arrowhead-rc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
@@ -202,28 +202,28 @@ Share of the total 62.4 points earned, by order. Same-item orders share a color:
   <path d="M220,180 L210,81 A100,100 0 0,1 220,80 Z" fill="#d9a441"/>
 
   <line x1="302" y1="54" x2="277" y2="92" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="308" y="47" font-size="11" fill="#fff" text-anchor="start">1: Apple (18%)</text>
+  <text x="308" y="47" font-size="11" fill="#fff" text-anchor="start">Apple (Order 1, 18%)</text>
 
   <line x1="360" y1="126" x2="318" y2="142" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="366" y="122" font-size="11" fill="#fff" text-anchor="start">2: Pancakes (2%)</text>
+  <text x="366" y="122" font-size="11" fill="#fff" text-anchor="start">Pancakes (Order 2, 2%)</text>
 
   <line x1="341" y1="268" x2="305" y2="242" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="347" y="275" font-size="11" fill="#fff" text-anchor="start">3: Sub (30%)</text>
+  <text x="347" y="275" font-size="11" fill="#fff" text-anchor="start">Sub (Order 3, 30%)</text>
 
   <line x1="204" y1="329" x2="209" y2="284" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="204" y="342" font-size="11" fill="#fff" text-anchor="middle">4: Spaghetti (3%)</text>
+  <text x="204" y="342" font-size="11" fill="#fff" text-anchor="middle">Spaghetti (Order 4, 3%)</text>
 
   <line x1="120" y1="291" x2="150" y2="258" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="114" y="304" font-size="11" fill="#fff" text-anchor="end">5: Apple (17%)</text>
+  <text x="114" y="304" font-size="11" fill="#fff" text-anchor="end">Apple (Order 5, 17%)</text>
 
   <line x1="73" y1="211" x2="117" y2="202" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="67" y="215" font-size="11" fill="#fff" text-anchor="end">6: Pizza (3%)</text>
+  <text x="67" y="215" font-size="11" fill="#fff" text-anchor="end">Pizza (Order 6, 3%)</text>
 
   <line x1="103" y1="86" x2="138" y2="114" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="97" y="80" font-size="11" fill="#fff" text-anchor="end">7: Sub (25%)</text>
+  <text x="97" y="80" font-size="11" fill="#fff" text-anchor="end">Sub (Order 7, 25%)</text>
 
   <line x1="212" y1="30" x2="215" y2="75" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
-  <text x="212" y="20" font-size="11" fill="#fff" text-anchor="middle">8: Pancakes (2%)</text>
+  <text x="212" y="20" font-size="11" fill="#fff" text-anchor="middle">Pancakes (Order 8, 2%)</text>
 </svg>
 
 The two Sub orders alone made up 55% of our total score. Both pancake orders together only made up 4%, but as it turned out, that 4% was the margin between winning the award and not.
