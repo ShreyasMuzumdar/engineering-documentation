@@ -192,14 +192,14 @@ Share of the total 62.4 points earned, by order. Same-item orders share a color:
       <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
     </marker>
   </defs>
-  <path d="M220,180 L220,80 A100,100 0 0,1 311,139 Z" fill="#4c9a8c"/>
-  <path d="M220,180 L311,139 A100,100 0 0,1 315,149 Z" fill="#e08a2c"/>
-  <path d="M220,180 L315,149 A100,100 0 0,1 220,280 Z" fill="#2f6690"/>
-  <path d="M220,180 L220,280 A100,100 0 0,1 199,278 Z" fill="#8a6bbf"/>
-  <path d="M220,180 L199,278 A100,100 0 0,1 125,211 Z" fill="#4c9a8c"/>
-  <path d="M220,180 L125,211 A100,100 0 0,1 121,190 Z" fill="#c94f4f"/>
-  <path d="M220,180 L121,190 A100,100 0 0,1 210,81 Z" fill="#2f6690"/>
-  <path d="M220,180 L210,81 A100,100 0 0,1 220,80 Z" fill="#e08a2c"/>
+  <path d="M220,180 L220,80 A100,100 0 0,1 311,139 Z" fill="#d6453d"/>
+  <path d="M220,180 L311,139 A100,100 0 0,1 315,149 Z" fill="#d9a441"/>
+  <path d="M220,180 L315,149 A100,100 0 0,1 220,280 Z" fill="#6ba84f"/>
+  <path d="M220,180 L220,280 A100,100 0 0,1 199,278 Z" fill="#e07b39"/>
+  <path d="M220,180 L199,278 A100,100 0 0,1 125,211 Z" fill="#d6453d"/>
+  <path d="M220,180 L125,211 A100,100 0 0,1 121,190 Z" fill="#c1440e"/>
+  <path d="M220,180 L121,190 A100,100 0 0,1 210,81 Z" fill="#6ba84f"/>
+  <path d="M220,180 L210,81 A100,100 0 0,1 220,80 Z" fill="#d9a441"/>
 
   <line x1="302" y1="54" x2="277" y2="92" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead-rc)"/>
   <text x="308" y="47" font-size="11" fill="#fff" text-anchor="start">1: Apple (18%)</text>
