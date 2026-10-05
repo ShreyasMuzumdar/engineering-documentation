@@ -310,4 +310,5 @@ Still need to add how the traction issue was diagnosed and fixed, and the final 
 More subsystems to add here.
 
 ## Related Robots
+- [[Robot Docs/Watney MKVIII|Watney MKVIII]]
 - [[Robot Docs/robot-docs|Robot Docs]]

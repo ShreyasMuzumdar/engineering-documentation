@@ -13,7 +13,10 @@ Over four seasons with Pioneer Robotics (FTC Team 12589), I went from a first-ye
 | [[Robot Docs/BlackBox\|BlackBox]] | CENTERSTAGE (2023) | State Finalist | Carbon fiber chassis, 7-week rebuild, drone launcher |
 | [[Robot Docs/MantisBot\|MantisBot]] | Into the Deep (2024) | Connect Award | Differential claw, integrated climb, Agile development |
 
-## 🪐 Rover — Watney MKVII
+## 🪐 Rovers — Watney
 At Northeastern University, I joined the team competing in the University Rover Challenge (URC) and the Canadian International Rover Challenge (CIRC). These competitions push teams to build Mars-analog rovers capable of autonomous navigation, sample collection, and life detection tasks.
 
-[[Robot Docs/Watney MKVII|Watney MKVII]] — full rover overview, including the swerve drive change and CIRC results.
+| Rover | Competitions | Highlights |
+| :--- | :--- | :--- |
+| [[Robot Docs/Watney MKVII\|Watney MKVII]] | URC / CIRC | Swerve drive, Auger, CIRC strategy (Heist Mission, RoverCooked award) |
+| [[Robot Docs/Watney MKVIII\|Watney MKVIII]] | URC / CIRC | In progress, this year's rover |
